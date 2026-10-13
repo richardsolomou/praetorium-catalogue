@@ -33,7 +33,6 @@ jobs:
       CATALOGUE_SNAPSHOT_POINTER_FILE: ${{ github.workspace }}/build/release/release.json
       CATALOGUE_OBJECTS_DIR: ${{ github.workspace }}/build/objects
       CATALOGUE_BASE_URL: https://s3.praetorium.gg/catalogue
-      CATALOGUE_BATTLEMASTER_CACHE: ${{ github.workspace }}/build/battlemaster-cache
     steps:
       - uses: actions/checkout@v7
       - name: Read the compiler pin
@@ -61,7 +60,7 @@ jobs:
           cache-dependency-path: compiler/pnpm-lock.yaml
       - uses: actions/cache@v6
         with:
-          path: ${{ env.CATALOGUE_BATTLEMASTER_CACHE }}
+          path: build/battlemaster-cache
           key: battlemaster-${{ steps.compiler.outputs.battlemaster }}
       - name: Install the pinned compiler
         working-directory: compiler
@@ -72,7 +71,8 @@ jobs:
           python3 -B -m unittest discover -s ../scripts
           pnpm catalogue:check
           pnpm exec vitest run scripts/lib/cataloguePatches.integration.test.ts scripts/lib/catalogueComposition.integration.test.ts scripts/lib/catalogueMaterialize.integration.test.ts src/server/catalogueComposition.test.ts
-          pnpm catalogue:materialize
+          # Scoped to this command: the compiler's own tests above fetch layouts too and must not find them cached.
+          CATALOGUE_BATTLEMASTER_CACHE=../build/battlemaster-cache pnpm catalogue:materialize
       - name: Validate the assembled catalogue
         working-directory: compiler
         env:
