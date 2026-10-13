@@ -1,0 +1,13 @@
+diff --git a/datacards/11th/gdc/core.json b/datacards/11th/gdc/core.json
+--- a/datacards/11th/gdc/core.json
++++ b/datacards/11th/gdc/core.json
+@@ -664,6 +664,9 @@
+       "turn": "your",
+       "type": "Strategic Ploy",
+       "phase": ["command"],
++      "restrictions": {
++        "en": "You can only use this Stratagem once per battle."
++      },
+       "target": {
+         "en": "One of your active Secondary Mission cards."
+       },

@@ -17,7 +17,18 @@
           }
         ]
       },
-      "sources": {},
+      "sources": {
+        "points": {
+          "repository": "BSData/wh40k-11e-mfm",
+          "branch": "main",
+          "path": "data",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/BSData/wh40k-11e-mfm/blob/main/LICENSE",
+          "attribution": "Copyright 2026 BSData",
+          "description": "Munitorum Field Manual 1.5 prices for units, detachments, enhancements, and upgrades.",
+          "revision": "8e0e635674018969fdcfaa64e83d4153ebefad70"
+        }
+      },
       "overlays": [
         {
           "source": "definitions",
@@ -217,6 +228,16 @@
           "license": null,
           "attribution": "Community catalogue data from BSData, maintained in the Praetorium fork.",
           "description": "Community catalogues for Warhammer 40,000 11th edition. JSON, one file per faction."
+        },
+        "points": {
+          "repository": "BSData/wh40k-11e-mfm",
+          "branch": "main",
+          "path": "data",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/BSData/wh40k-11e-mfm/blob/main/LICENSE",
+          "attribution": "Copyright 2026 BSData",
+          "description": "Munitorum Field Manual 1.5 prices for units, detachments, enhancements, and upgrades.",
+          "revision": "8e0e635674018969fdcfaa64e83d4153ebefad70"
         }
       },
       "overlays": []
@@ -227,6 +248,53 @@
         "slug": "space-marines-codex-2026-10-13",
         "name": "Space Marines codex · 13 Oct 2026",
         "description": "Rules snapshot from 13 Oct 2026, including the Land Raider Redeemer ability correction. The Space Marines codex was released on 3 Oct 2026.",
+        "status": "released",
+        "default": false,
+        "catalogueIds": ["2261-79a5-19d9-1668", "470a-6daa-9014-12df", "4ef9-15ce-e3e6-36de", "e0af-67df-9d63-8fb7"],
+        "releases": [
+          {
+            "at": 1791849600000,
+            "status": "released"
+          }
+        ]
+      },
+      "sources": {
+        "definitions": {
+          "repository": "richardsolomou/wh40k-11e",
+          "branch": "main",
+          "license": null,
+          "description": "Community catalogues for Warhammer 40,000 11th edition. JSON, one file per faction.",
+          "revision": "8b50fc3240e29c6ab0e254f75bcefa8cce8ce0ef",
+          "attribution": "Community catalogue data from BSData, maintained in the Praetorium fork."
+        },
+        "points": {
+          "repository": "BSData/wh40k-11e-mfm",
+          "branch": "main",
+          "path": "data",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/BSData/wh40k-11e-mfm/blob/main/LICENSE",
+          "attribution": "Copyright 2026 BSData",
+          "description": "Munitorum Field Manual 1.5 prices for units, detachments, enhancements, and upgrades.",
+          "revision": "8e0e635674018969fdcfaa64e83d4153ebefad70"
+        },
+        "datacards": {
+          "repository": "game-datacards/datasources",
+          "branch": "main",
+          "path": "11th/gdc",
+          "license": null,
+          "attribution": "Data provided by game-datacards",
+          "description": "Game Datacards data for Warhammer 40,000 11th edition, including factions, core rules, missions, and layouts.",
+          "revision": "9c0762c8311db122c0faa9a3a09ef891c3c2d782"
+        }
+      },
+      "overlays": []
+    },
+    {
+      "edition": {
+        "id": "marine-points-1013",
+        "slug": "space-marines-points-2026-10-13",
+        "name": "Space Marines points · 13 Oct 2026",
+        "description": "Space Marines codex rules with refreshed official Munitorum Field Manual points verified on 13 Oct 2026.",
         "status": "released",
         "default": true,
         "catalogueIds": ["2261-79a5-19d9-1668", "470a-6daa-9014-12df", "4ef9-15ce-e3e6-36de", "e0af-67df-9d63-8fb7"],

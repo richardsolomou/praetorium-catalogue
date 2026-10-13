@@ -1,0 +1,12 @@
+diff --git a/datacards/11th/gdc/core.json b/datacards/11th/gdc/core.json
+--- a/datacards/11th/gdc/core.json
++++ b/datacards/11th/gdc/core.json
+@@ -412,7 +412,7 @@
+       "cost": 1,
+       "turn": "your",
+       "type": "Core Stratagem",
+-      "phase": ["charge"],
++      "phase": ["command"],
+       "target": {
+         "en": "That unit.",
+         "de": "Jene Einheit",

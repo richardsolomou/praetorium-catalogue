@@ -8,14 +8,14 @@
     "attribution": "Community catalogue data from BSData, maintained in the Praetorium fork."
   },
   "points": {
-    "repository": "BSData/wh40k-11e-mfm",
+    "repository": "richardsolomou/wh40k-11e-mfm",
     "branch": "main",
     "path": "data",
     "license": "MIT",
     "licenseUrl": "https://github.com/BSData/wh40k-11e-mfm/blob/main/LICENSE",
     "attribution": "Copyright 2026 BSData",
     "description": "Munitorum Field Manual 1.5 prices for units, detachments, enhancements, and upgrades.",
-    "revision": "8e0e635674018969fdcfaa64e83d4153ebefad70"
+    "revision": "8355616f483c15b3ff212953e10deddde7079fa1"
   },
   "datacards": {
     "repository": "game-datacards/datasources",
