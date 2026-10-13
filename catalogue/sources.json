@@ -4,7 +4,7 @@
     "branch": "main",
     "license": null,
     "description": "Community catalogues for Warhammer 40,000 11th edition. JSON, one file per faction.",
-    "revision": "1b1ddfd2d064a9b5e7dbed7a63a2a4dd3aedfa29",
+    "revision": "8b50fc3240e29c6ab0e254f75bcefa8cce8ce0ef",
     "attribution": "Community catalogue data from BSData, maintained in the Praetorium fork."
   },
   "points": {
