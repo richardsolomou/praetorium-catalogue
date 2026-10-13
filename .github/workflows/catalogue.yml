@@ -14,8 +14,8 @@ on:
         default: false
 
 concurrency:
-  group: catalogue-release
-  cancel-in-progress: false
+  group: ${{ github.event_name == 'workflow_dispatch' && 'catalogue-release' || format('catalogue-pr-{0}', github.ref) }}
+  cancel-in-progress: ${{ github.event_name != 'workflow_dispatch' }}
 
 permissions:
   contents: write
@@ -33,6 +33,7 @@ jobs:
       CATALOGUE_SNAPSHOT_POINTER_FILE: ${{ github.workspace }}/build/release/release.json
       CATALOGUE_OBJECTS_DIR: ${{ github.workspace }}/build/objects
       CATALOGUE_BASE_URL: https://s3.praetorium.gg/catalogue
+      CATALOGUE_BATTLEMASTER_CACHE: ${{ github.workspace }}/build/battlemaster-cache
     steps:
       - uses: actions/checkout@v7
       - name: Read the compiler pin
@@ -40,8 +41,11 @@ jobs:
         run: |
           node scripts/check.mjs
           node --test scripts/verify-projections.test.mjs
-          echo "repository=$(jq -r .repository compiler.json)" >> "$GITHUB_OUTPUT"
-          echo "revision=$(jq -r .revision compiler.json)" >> "$GITHUB_OUTPUT"
+          {
+            echo "repository=$(jq -r .repository compiler.json)"
+            echo "revision=$(jq -r .revision compiler.json)"
+            echo "battlemaster=$(jq -r .battlemaster.revision catalogue/sources.json)"
+          } >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v7
         with:
           repository: ${{ steps.compiler.outputs.repository }}
@@ -55,6 +59,10 @@ jobs:
           node-version-file: compiler/package.json
           cache: pnpm
           cache-dependency-path: compiler/pnpm-lock.yaml
+      - uses: actions/cache@v6
+        with:
+          path: ${{ env.CATALOGUE_BATTLEMASTER_CACHE }}
+          key: battlemaster-${{ steps.compiler.outputs.battlemaster }}
       - name: Install the pinned compiler
         working-directory: compiler
         run: pnpm install --frozen-lockfile
@@ -80,13 +88,19 @@ jobs:
           mkdir -p ../build/release ../build/offline/assets
           pnpm catalogue:history
           pnpm catalogue:snapshot pack
+          node --expose-gc --import tsx scripts/benchmarkCatalogueMemory.ts source "$CATALOGUE_DIR" --verify > ../build/source-projections.jsonl &
+          source_projections=$!
           pnpm catalogue:snapshot verify
           pnpm catalogue:snapshot runtime
-          pnpm exec tsx -e "import('./scripts/lib/offlineReferenceBundle.ts').then(({ writeReferenceBundle }) => writeReferenceBundle('../build/offline'))"
+          pnpm exec tsx -e "import('./scripts/lib/offlineReferenceBundle.ts').then(({ writeReferenceBundle }) => writeReferenceBundle('../build/offline'))" &
+          offline_bundle=$!
+          node --expose-gc --import tsx scripts/benchmarkCatalogueMemory.ts runtime "$CATALOGUE_DIR" ../build/release/catalogue-runtime --verify > ../build/runtime-projections.jsonl &
+          runtime_projections=$!
           cp ../build/objects/manifest.json ../build/release/manifest.json
           cp ../catalogue/revocations.json ../build/release/revocations.json
-          node --expose-gc --import tsx scripts/benchmarkCatalogueMemory.ts source "$CATALOGUE_DIR" --verify > ../build/source-projections.jsonl
-          node --expose-gc --import tsx scripts/benchmarkCatalogueMemory.ts runtime "$CATALOGUE_DIR" ../build/release/catalogue-runtime --verify > ../build/runtime-projections.jsonl
+          wait "$source_projections"
+          wait "$offline_bundle"
+          wait "$runtime_projections"
           node ../scripts/verify-projections.mjs ../build/source-projections.jsonl ../build/runtime-projections.jsonl
       - uses: actions/upload-artifact@v7
         with:
