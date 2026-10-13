@@ -1,0 +1,303 @@
+[
+  {
+    "editionId": "legacy-marine-old",
+    "catalogueIds": ["470a-6daa-9014-12df"],
+    "originalCatalogueIds": [],
+    "detachments": [],
+    "aliases": {
+      "catalogues": {},
+      "detachments": {
+        "profile-detachment-option-470a-6daa-9014-12df-41e6-d47c-5e68-e066": {
+          "id": "41e6-d47c-5e68-e066"
+        }
+      },
+      "datasheets": {
+        "3c0a-10a9-8f84-26a3": {
+          "id": "3c0a-10a9-8f84-26a3",
+          "choices": {
+            "d0cd-b8dc-82e-5eb8/34be-35f8-9966-c99f/aa70-d014-e89b-7e37": {
+              "3372-7d35-b60e-24a9": {
+                "key": "d0cd-b8dc-82e-5eb8/34be-35f8-9966-c99f/fe9c-f9ed-2182-bd33",
+                "id": "3372-7d35-b60e-24a9"
+              }
+            }
+          }
+        }
+      }
+    },
+    "selectionGroups": [
+      [
+        {
+          "entryId": "3c0a-10a9-8f84-26a3",
+          "kind": "spread",
+          "key": "d0cd-b8dc-82e-5eb8",
+          "optionId": "5173-cc7b-b53a-514"
+        },
+        {
+          "entryId": "19ec-f615-a22c-431",
+          "kind": "choice",
+          "key": "7821-bef6-34a0-a567",
+          "optionId": "7821-bef6-34a0-a567"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "choice",
+          "key": "f227-6107-836d-3fee/131c-8a56-d003-b9a9/d95f-e1f7-815e-ec69",
+          "optionId": "90fe-a335-4f97-252e"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "choice",
+          "key": "f227-6107-836d-3fee/131c-8a56-d003-b9a9/ec87-a124-bfd1-f293",
+          "optionId": "14d-7f50-6c23-9f23"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "choice",
+          "key": "f227-6107-836d-3fee/131c-8a56-d003-b9a9/d95f-e1f7-815e-ec69",
+          "optionId": "e487-31e6-b956-c818"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "toggle",
+          "key": "f227-6107-836d-3fee/473f-2044-2014-7fd7"
+        },
+        {
+          "entryId": "85b1-eb9a-17a6-e5be",
+          "kind": "choice",
+          "key": "e371-90b3-5640-949/8ea3-b125-7273-5ffb/bcb6-f6d1-cfc6-f4f3",
+          "optionId": "3e88-327f-be98-d923"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "choice",
+          "key": "f227-6107-836d-3fee/131c-8a56-d003-b9a9/ec87-a124-bfd1-f293",
+          "optionId": "919d-2556-c95e-1e09"
+        },
+        {
+          "entryId": "634d-dab3-fa1a-958c",
+          "kind": "choice",
+          "key": "ab5d-2547-ab51-ff2a/6f7c-305e-2710-51c5",
+          "optionId": "f125-3805-62e2-8976"
+        },
+        {
+          "entryId": "b62e-cd23-d338-8142",
+          "kind": "choice",
+          "key": "9180-2020-d231-94f9/6f7c-305e-2710-51c5",
+          "optionId": "3ad6-26c4-206b-aa4f"
+        },
+        {
+          "entryId": "219b-58dd-df81-b99e",
+          "kind": "choice",
+          "key": "ffe4-f98-1180-f8ea/d3d1-b40c-1e2d-53da",
+          "optionId": "71df-3585-6b7-7e38"
+        },
+        {
+          "entryId": "3f75-2c71-6fdb-6fc3",
+          "kind": "choice",
+          "key": "8a7f-b578-d274-9769/20d9-b1de-d9db-72ef/6f57-8789-8362-12e6",
+          "optionId": "29e1-5f2e-8d3a-8c4"
+        },
+        {
+          "entryId": "3f75-2c71-6fdb-6fc3",
+          "kind": "spread",
+          "key": "8a7f-b578-d274-9769/20d9-b1de-d9db-72ef/5f19-8441-54ab-662e",
+          "optionId": "2847-71d9-2b3e-67d7"
+        }
+      ],
+      [
+        {
+          "entryId": "profile-unit-e0af-67df-9d63-8fb8-024a-3fea-7765-4e82",
+          "kind": "choice",
+          "key": "bf35-d102-b5f2-0b01/d3d6-f4bd-6bec-68e2",
+          "optionId": "e3eb-727b-1dc0-38b1"
+        },
+        {
+          "entryId": "a74c-27a6-a054-e13c",
+          "kind": "choice",
+          "key": "profile-enhancements-8a9d-11f-fad-bd0f/313d-fbf4-76fa-1c0e",
+          "optionId": "a353-795d-f8a1-e18d"
+        },
+        {
+          "entryId": "f474-4b0b-6292-38aa",
+          "kind": "choice",
+          "key": "profile-upgrades-a6cc-9a65-dbf1-71b0/a948-78f4-fba7-c0ea",
+          "optionId": "743e-10b4-8813-c211"
+        },
+        {
+          "entryId": "ce90-be8f-9f47-6641",
+          "kind": "choice",
+          "key": "profile-upgrades-cdd9-efda-95-e7b2/a948-78f4-fba7-c0ea",
+          "optionId": "743e-10b4-8813-c211"
+        },
+        {
+          "entryId": "profile-unit-e0af-67df-9d63-8fb8-e720-099f-afe5-4d9d",
+          "kind": "choice",
+          "key": "74c4-dcee-d074-d5ce/598d-14fc-6f78-611d",
+          "optionId": "5c18-7c60-af8b-7be9"
+        }
+      ]
+    ]
+  },
+  {
+    "editionId": "legacy-rosters",
+    "catalogueIds": ["2261-79a5-19d9-1668", "470a-6daa-9014-12df", "4ef9-15ce-e3e6-36de"],
+    "originalCatalogueIds": [],
+    "detachments": [
+      "3caf-c168-c372-51b1",
+      "41e6-d47c-5e68-e066",
+      "5d64-4100-80e-c8f3",
+      "5ff-1ac3-bc73-8273",
+      "cbc5-234b-edae-3784",
+      "ce39-a420-4206-827c",
+      "profile-detachment-option-470a-6daa-9014-12df-41e6-d47c-5e68-e066"
+    ],
+    "aliases": {
+      "catalogues": {},
+      "detachments": {
+        "profile-detachment-option-470a-6daa-9014-12df-41e6-d47c-5e68-e066": {
+          "id": "41e6-d47c-5e68-e066"
+        }
+      },
+      "datasheets": {
+        "3c0a-10a9-8f84-26a3": {
+          "id": "3c0a-10a9-8f84-26a3",
+          "choices": {
+            "d0cd-b8dc-82e-5eb8/34be-35f8-9966-c99f/aa70-d014-e89b-7e37": {
+              "3372-7d35-b60e-24a9": {
+                "key": "d0cd-b8dc-82e-5eb8/34be-35f8-9966-c99f/fe9c-f9ed-2182-bd33",
+                "id": "3372-7d35-b60e-24a9"
+              }
+            }
+          }
+        }
+      }
+    },
+    "selectionGroups": [
+      [
+        {
+          "entryId": "3c0a-10a9-8f84-26a3",
+          "kind": "spread",
+          "key": "d0cd-b8dc-82e-5eb8",
+          "optionId": "5173-cc7b-b53a-514"
+        },
+        {
+          "entryId": "19ec-f615-a22c-431",
+          "kind": "choice",
+          "key": "7821-bef6-34a0-a567",
+          "optionId": "7821-bef6-34a0-a567"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "choice",
+          "key": "f227-6107-836d-3fee/131c-8a56-d003-b9a9/d95f-e1f7-815e-ec69",
+          "optionId": "90fe-a335-4f97-252e"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "choice",
+          "key": "f227-6107-836d-3fee/131c-8a56-d003-b9a9/ec87-a124-bfd1-f293",
+          "optionId": "14d-7f50-6c23-9f23"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "choice",
+          "key": "f227-6107-836d-3fee/131c-8a56-d003-b9a9/d95f-e1f7-815e-ec69",
+          "optionId": "e487-31e6-b956-c818"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "toggle",
+          "key": "f227-6107-836d-3fee/473f-2044-2014-7fd7"
+        },
+        {
+          "entryId": "85b1-eb9a-17a6-e5be",
+          "kind": "choice",
+          "key": "e371-90b3-5640-949/8ea3-b125-7273-5ffb/bcb6-f6d1-cfc6-f4f3",
+          "optionId": "3e88-327f-be98-d923"
+        },
+        {
+          "entryId": "e1ac-1406-1081-8ea3",
+          "kind": "choice",
+          "key": "f227-6107-836d-3fee/131c-8a56-d003-b9a9/ec87-a124-bfd1-f293",
+          "optionId": "919d-2556-c95e-1e09"
+        },
+        {
+          "entryId": "634d-dab3-fa1a-958c",
+          "kind": "choice",
+          "key": "ab5d-2547-ab51-ff2a/6f7c-305e-2710-51c5",
+          "optionId": "f125-3805-62e2-8976"
+        },
+        {
+          "entryId": "b62e-cd23-d338-8142",
+          "kind": "choice",
+          "key": "9180-2020-d231-94f9/6f7c-305e-2710-51c5",
+          "optionId": "3ad6-26c4-206b-aa4f"
+        },
+        {
+          "entryId": "219b-58dd-df81-b99e",
+          "kind": "choice",
+          "key": "ffe4-f98-1180-f8ea/d3d1-b40c-1e2d-53da",
+          "optionId": "71df-3585-6b7-7e38"
+        },
+        {
+          "entryId": "3f75-2c71-6fdb-6fc3",
+          "kind": "choice",
+          "key": "8a7f-b578-d274-9769/20d9-b1de-d9db-72ef/6f57-8789-8362-12e6",
+          "optionId": "29e1-5f2e-8d3a-8c4"
+        },
+        {
+          "entryId": "3f75-2c71-6fdb-6fc3",
+          "kind": "spread",
+          "key": "8a7f-b578-d274-9769/20d9-b1de-d9db-72ef/5f19-8441-54ab-662e",
+          "optionId": "2847-71d9-2b3e-67d7"
+        }
+      ]
+    ]
+  },
+  {
+    "editionId": "legacy-profiles",
+    "catalogueIds": ["470a-6daa-9014-12df", "4eef-e313-1eea-94a6", "a603-5039-f08d-e841"],
+    "originalCatalogueIds": ["4eef-e313-1eea-94a6", "a603-5039-f08d-e841"],
+    "detachments": [],
+    "aliases": {
+      "catalogues": {},
+      "detachments": {},
+      "datasheets": {}
+    },
+    "selectionGroups": [
+      [
+        {
+          "entryId": "profile-unit-e0af-67df-9d63-8fb8-024a-3fea-7765-4e82",
+          "kind": "choice",
+          "key": "bf35-d102-b5f2-0b01/d3d6-f4bd-6bec-68e2",
+          "optionId": "e3eb-727b-1dc0-38b1"
+        },
+        {
+          "entryId": "a74c-27a6-a054-e13c",
+          "kind": "choice",
+          "key": "profile-enhancements-8a9d-11f-fad-bd0f/313d-fbf4-76fa-1c0e",
+          "optionId": "a353-795d-f8a1-e18d"
+        },
+        {
+          "entryId": "f474-4b0b-6292-38aa",
+          "kind": "choice",
+          "key": "profile-upgrades-a6cc-9a65-dbf1-71b0/a948-78f4-fba7-c0ea",
+          "optionId": "743e-10b4-8813-c211"
+        },
+        {
+          "entryId": "ce90-be8f-9f47-6641",
+          "kind": "choice",
+          "key": "profile-upgrades-cdd9-efda-95-e7b2/a948-78f4-fba7-c0ea",
+          "optionId": "743e-10b4-8813-c211"
+        },
+        {
+          "entryId": "profile-unit-e0af-67df-9d63-8fb8-e720-099f-afe5-4d9d",
+          "kind": "choice",
+          "key": "74c4-dcee-d074-d5ce/598d-14fc-6f78-611d",
+          "optionId": "5c18-7c60-af8b-7be9"
+        }
+      ]
+    ]
+  }
+]

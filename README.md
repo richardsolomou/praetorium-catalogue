@@ -1,8 +1,8 @@
 # Praetorium catalogue
 
-This repository owns the upstream source pins, composition, provenance, revocation policy and minimal authored corrections in `catalogue/`. KOTC 2 declarations and upstream corrections belong here. Fetched sources, copied rules prose, generated JSON and snapshots stay outside Git. Generated files are published as release assets.
+This repository owns the upstream source pins, composition, provenance, revocation policy, saved-roster compatibility metadata, retained-build recipes, coverage exceptions and minimal authored corrections in `catalogue/`. KOTC 2 declarations and upstream corrections belong here. Fetched sources, copied rules prose, generated JSON and snapshots stay outside Git. Generated files are published as release assets.
 
-The [application](https://github.com/richardsolomou/praetorium.gg) owns the compiler, generic domain behaviour and saved-roster migrations. `compiler.json` pins that compiler to a full Git commit. Change the compiler pin when a correction needs new engine support; do not copy its implementation here.
+The [application](https://github.com/richardsolomou/praetorium.gg) owns the compiler, generic domain behaviour and migration interpreters. `compiler.json` pins that compiler to a full Git commit. Change the compiler pin when a correction needs new engine support; do not copy its implementation here.
 
 ## Authoring and validation
 
@@ -11,6 +11,10 @@ Edit exact source revisions in `catalogue/sources.json`, rules composition in `c
 For local checks, clone the compiler revision from `compiler.json`, run `pnpm install --frozen-lockfile`, and set `CATALOGUE_AUTHORING_DIR` to this checkout's absolute path before running its `pnpm catalogue:check` and `pnpm catalogue:materialize` commands. `CATALOGUE_DIR` must identify an independent output directory, never an activated snapshot symlink. Run the affected source audits and the application’s catalogue preflight before adopting a release.
 
 Pull requests run the pinned compiler's authoring tests, full materialization, source audits, retained correction checks, history preparation, snapshot verification and complete source/runtime projection comparison. Run `node scripts/check.mjs`, `node --test scripts/verify-projections.test.mjs` and `python3 -B -m unittest discover -s scripts` for the publisher's local checks.
+
+Saved-ID replacements and loadout migrations live in `catalogue/retired-ids.json` and `catalogue/roster-migrations.json`. Retained rules signatures and reproduction recipes live in `catalogue/retained-roster-rules.json` and `catalogue/retained-profile-build.json`. Preserve their verified identities and source pins; the application imports this metadata from its pinned authoring checkout without request-time downloads.
+
+Record only a proposed update’s intentional coverage losses in `catalogue/accepted-coverage-losses.json`, with exact entries and reasons. Replace any previous list when preparing a new update. Application CI uses exceptions only when it changes the authoring pin, and still rejects stale entries. Application releases do not modify these files.
 
 ## Publishing
 
