@@ -1,0 +1,141 @@
+{
+  "marineStatementWrappers": {
+    "fromSnapshot": "3e2a091c92b1687f6b3031e1abf7a87dae12733a9dc8e58468c8d9a52b75d321",
+    "toSnapshot": "886baf84dab792d37c799a01688dfdfe1fee64c1c58c2401f378410506318095",
+    "reason": "Preserve the same named Marine detachments after profile wrappers are replaced, the Land Raider Redeemer optional weapons after statement wrappers are removed, the Scout Sergeant chainsword after its statement becomes a weapon choice, and the Deathwing heavy-weapon model power fist after its source ID changes.",
+    "catalogues": {},
+    "detachments": {
+      "profile-detachment-option-a603-5039-f08d-e841-79a8-da59-2007-87b0": {
+        "id": "cd09-8410-f1a0-c9af"
+      },
+      "profile-detachment-option-470a-6daa-9014-12df-1074-ee64-b992-ce44": {
+        "id": "aa86-1617-4029-fcd7"
+      },
+      "profile-detachment-option-470a-6daa-9014-12df-fb20-be3c-55aa-0512": {
+        "id": "50ed-e07c-8f6b-b035"
+      },
+      "profile-detachment-option-470a-6daa-9014-12df-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802"
+      },
+      "profile-detachment-option-470a-6daa-9014-12df-d4d1-aae4-327e-1a9f": {
+        "id": "5139-a5ca-8533-7e09"
+      },
+      "profile-detachment-option-470a-6daa-9014-12df-ceec-b79b-0b83-92b6": {
+        "id": "e5e4-56a3-ca06-fecf"
+      },
+      "profile-detachment-option-94bb-3284-ee14-57a1-aa9e-3e30-26a9-2302": {
+        "id": "1dc3-0d2d-7cb8-b84b"
+      },
+      "profile-detachment-option-94bb-3284-ee14-57a1-0fa7-f692-c564-45b9": {
+        "id": "6ad0-c6f6-b9e8-bae2"
+      },
+      "profile-detachment-option-94bb-3284-ee14-57a1-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802"
+      }
+    },
+    "datasheets": {
+      "2b9d-9c13-9277-d157": {
+        "id": "2b9d-9c13-9277-d157",
+        "choices": {
+          "785c-4575-4fc1-fe2a": {
+            "fda7-4dfc-d586-8c51": {
+              "key": "376d-e493-b439-19f4",
+              "id": "b418-c052-b121-7655"
+            },
+            "aa40-6725-eb70-f48f": {
+              "key": "376d-e493-b439-19f4",
+              "id": "d11b-4ab-38fc-44b"
+            },
+            "478f-f6a0-3bd4-0853": {
+              "key": "376d-e493-b439-19f4",
+              "id": "d8fc-6404-720b-31ee"
+            }
+          }
+        }
+      },
+      "3c0a-10a9-8f84-26a3": {
+        "id": "3c0a-10a9-8f84-26a3",
+        "choices": {
+          "e5e9-8c26-629c-8962": {
+            "f869-744f-bf72-013d": {
+              "key": "d0cd-b8dc-82e-5eb8/34be-35f8-9966-c99f/aa70-d014-e89b-7e37",
+              "id": "3372-7d35-b60e-24a9"
+            }
+          }
+        }
+      },
+      "d9b9-5a27-3836-1125": {
+        "id": "d9b9-5a27-3836-1125",
+        "choices": {
+          "e082-9cb8-ce5e-826d/5e6d-5b97-f4b5-7cd9/fba4-75c7-84da-bcb4": {
+            "bef-1df5-dd8b-93fe": {
+              "key": "e082-9cb8-ce5e-826d/5e6d-5b97-f4b5-7cd9/fba4-75c7-84da-bcb4",
+              "id": "4005-701e-21a1-f2df"
+            }
+          }
+        }
+      }
+    }
+  },
+  "marineLoadoutPaths": {
+    "fromSnapshot": "84c15721ac8c3835eb92946e2e46e852bb8352ee551c0fe39bf8bea913dad8df",
+    "toSnapshot": "886baf84dab792d37c799a01688dfdfe1fee64c1c58c2401f378410506318095",
+    "reason": "Preserve the Scout Sergeant's chainsword, each Ravenwing command model's plasma talon, and the Invader ATV's multi-melta when their source paths change. Preserve unchanged Darkflight Pursuit and Wrath of the Rock detachments when their generated profile wrappers are removed.",
+    "catalogues": {},
+    "detachments": {
+      "profile-detachment-option-470a-6daa-9014-12df-64a6-9332-de28-21a9": {
+        "id": "64a6-9332-de28-21a9"
+      },
+      "profile-detachment-option-470a-6daa-9014-12df-9d23-833a-17cb-2d7d": {
+        "id": "9d23-833a-17cb-2d7d"
+      }
+    },
+    "datasheets": {
+      "3c0a-10a9-8f84-26a3": {
+        "id": "3c0a-10a9-8f84-26a3",
+        "choices": {
+          "d0cd-b8dc-82e-5eb8/34be-35f8-9966-c99f/fe9c-f9ed-2182-bd33": {
+            "3372-7d35-b60e-24a9": {
+              "key": "d0cd-b8dc-82e-5eb8/34be-35f8-9966-c99f/aa70-d014-e89b-7e37",
+              "id": "3372-7d35-b60e-24a9"
+            }
+          }
+        }
+      },
+      "e1ac-1406-1081-8ea3": {
+        "id": "e1ac-1406-1081-8ea3",
+        "choices": {
+          "b342-4005-baec-3598/6545-a196-d075-bf4e": {
+            "d208-29d5-5f5f-917d": {
+              "key": "b342-4005-baec-3598/f4ca-73f2-e914-8c86",
+              "id": "d865-b3ae-72eb-73e3"
+            }
+          },
+          "d445-3ac1-64d5-fd4a/3771-6c3c-4035-70fa": {
+            "d865-b3ae-72eb-73e3": {
+              "key": "d445-3ac1-64d5-fd4a/c396-2094-f726-0d5f",
+              "id": "d865-b3ae-72eb-73e3"
+            }
+          },
+          "f227-6107-836d-3fee/ef39-2ca8-0396-efc9/3b1a-9e16-a44b-b70a": {
+            "ef7c-6497-d952-88a9": {
+              "key": "f227-6107-836d-3fee/ef39-2ca8-0396-efc9/2cce-fb22-6473-56de",
+              "id": "d865-b3ae-72eb-73e3"
+            }
+          }
+        }
+      },
+      "8b71-580f-ad19-83d7": {
+        "id": "8b71-580f-ad19-83d7",
+        "choices": {
+          "692c-f7be-75d4-ba2d/f1f6-718e-222f-9ed5": {
+            "b440-75d0-9e95-486a": {
+              "key": "266c-3f4c-4aed-9472/8d7b-3dfe-7b91-2490/692c-f7be-75d4-ba2d/f1f6-718e-222f-9ed5",
+              "id": "b440-75d0-9e95-486a"
+            }
+          }
+        }
+      }
+    }
+  }
+}

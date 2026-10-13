@@ -2,7 +2,7 @@
 
 Keep source pins, composition, provenance and minimal authored corrections here. Never commit fetched sources, copied rules prose, generated JSON or archives; publish generated files as verified release assets.
 
-The application owns its compiler, domain semantics and saved-roster compatibility. Pin the compiler to a full Git commit in `compiler.json`; do not duplicate its implementation.
+Keep saved-roster compatibility declarations, retained-build recipes and coverage exceptions here. The application owns their generic interpreters, compiler and domain semantics. Pin the compiler to a full Git commit in `compiler.json`; do not duplicate its implementation.
 
 Corrections belong in `catalogue/patches/`. Verify their exact pinned source and provenance, materialize affected sources, and run the pinned compiler checks before publication. Preserve released rules identities and history.
 

@@ -1,0 +1,4338 @@
+{
+  "marineCodex": {
+    "revision": "659a6027f7b192d3a21a630b1c9786ae29ec741f",
+    "replacement": {
+      "source": "definitions",
+      "revision": "f08174b199be16176287c13cb8afb64fde18303f"
+    },
+    "catalogues": {
+      "23d7-91c9-24dc-263a": {
+        "id": "5d6e-fd3-330a-11dd",
+        "name": "Imperium - Adeptus Astartes - Imperial Fists"
+      },
+      "14f0-2e5f-1ef8-7d6a": {
+        "id": "f27e-18c0-b73e-748e",
+        "name": "Imperium - Adeptus Astartes - Iron Hands"
+      },
+      "323f-498b-f3a0-377f": {
+        "id": "6e59-e1ee-47ad-6ce5",
+        "name": "Imperium - Adeptus Astartes - Raven Guard"
+      },
+      "4eef-e313-1eea-94a6": {
+        "id": "2261-79a5-19d9-1668",
+        "name": "Imperium - Adeptus Astartes - Salamanders"
+      },
+      "e0af-67df-9d63-8fb8": {
+        "id": "e0af-67df-9d63-8fb7",
+        "name": "Imperium - Adeptus Astartes - Space Marines"
+      },
+      "a603-5039-f08d-e841": {
+        "id": "4029-9237-e8db-af55",
+        "name": "Imperium - Adeptus Astartes - Ultramarines"
+      },
+      "2f78-9f73-b44f-3807": {
+        "id": "67c1-fc13-f9a1-cbbf",
+        "name": "Imperium - Adeptus Astartes - White Scars"
+      }
+    },
+    "detachments": {
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802",
+        "name": "Assault Brethren"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802",
+        "name": "Assault Brethren"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802",
+        "name": "Assault Brethren"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802",
+        "name": "Assault Brethren"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802",
+        "name": "Assault Brethren"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802",
+        "name": "Assault Brethren"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-f261-3980-2765-e3be": {
+        "id": "549e-86b2-b786-c802",
+        "name": "Assault Brethren"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-4699-0367-67ff-7a60": {
+        "id": "6d9d-6462-1738-6bb3",
+        "name": "Blade of Ultramar"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-c728-701a-0091-f9c3": {
+        "id": "3000-9a97-6f30-5a00",
+        "name": "Ceramite Sentinels"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-f854-d78c-feef-7d1e": {
+        "id": "3bb2-fd56-d456-de75",
+        "name": "Devastator Brethren"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-f854-d78c-feef-7d1e": {
+        "id": "3bb2-fd56-d456-de75",
+        "name": "Devastator Brethren"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-f854-d78c-feef-7d1e": {
+        "id": "3bb2-fd56-d456-de75",
+        "name": "Devastator Brethren"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-f854-d78c-feef-7d1e": {
+        "id": "3bb2-fd56-d456-de75",
+        "name": "Devastator Brethren"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-f854-d78c-feef-7d1e": {
+        "id": "3bb2-fd56-d456-de75",
+        "name": "Devastator Brethren"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-f854-d78c-feef-7d1e": {
+        "id": "3bb2-fd56-d456-de75",
+        "name": "Devastator Brethren"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-f854-d78c-feef-7d1e": {
+        "id": "3bb2-fd56-d456-de75",
+        "name": "Devastator Brethren"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-15c3-f96a-d1a3-ce8f": {
+        "id": "e073-8fe8-5b59-48f0",
+        "name": "Forgefather's Seekers"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-f367-3240-47c1-7e1a": {
+        "id": "d2dc-693e-b491-b16d",
+        "name": "Gladius Task Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-f367-3240-47c1-7e1a": {
+        "id": "d2dc-693e-b491-b16d",
+        "name": "Gladius Task Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-f367-3240-47c1-7e1a": {
+        "id": "d2dc-693e-b491-b16d",
+        "name": "Gladius Task Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-f367-3240-47c1-7e1a": {
+        "id": "d2dc-693e-b491-b16d",
+        "name": "Gladius Task Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-f367-3240-47c1-7e1a": {
+        "id": "d2dc-693e-b491-b16d",
+        "name": "Gladius Task Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-f367-3240-47c1-7e1a": {
+        "id": "d2dc-693e-b491-b16d",
+        "name": "Gladius Task Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-f367-3240-47c1-7e1a": {
+        "id": "d2dc-693e-b491-b16d",
+        "name": "Gladius Task Force"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-0a98-b66e-13b6-13d4": {
+        "id": "0b59-ad5c-a30b-75ba",
+        "name": "Gravis Linebreaker Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-0a98-b66e-13b6-13d4": {
+        "id": "0b59-ad5c-a30b-75ba",
+        "name": "Gravis Linebreaker Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-0a98-b66e-13b6-13d4": {
+        "id": "0b59-ad5c-a30b-75ba",
+        "name": "Gravis Linebreaker Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-0a98-b66e-13b6-13d4": {
+        "id": "0b59-ad5c-a30b-75ba",
+        "name": "Gravis Linebreaker Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-0a98-b66e-13b6-13d4": {
+        "id": "0b59-ad5c-a30b-75ba",
+        "name": "Gravis Linebreaker Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-0a98-b66e-13b6-13d4": {
+        "id": "0b59-ad5c-a30b-75ba",
+        "name": "Gravis Linebreaker Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-0a98-b66e-13b6-13d4": {
+        "id": "0b59-ad5c-a30b-75ba",
+        "name": "Gravis Linebreaker Force"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-0fa7-f692-c564-45b9": {
+        "id": "6ad0-c6f6-b9e8-bae2",
+        "name": "Gravis Siege Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-0fa7-f692-c564-45b9": {
+        "id": "6ad0-c6f6-b9e8-bae2",
+        "name": "Gravis Siege Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-0fa7-f692-c564-45b9": {
+        "id": "6ad0-c6f6-b9e8-bae2",
+        "name": "Gravis Siege Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-0fa7-f692-c564-45b9": {
+        "id": "6ad0-c6f6-b9e8-bae2",
+        "name": "Gravis Siege Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-0fa7-f692-c564-45b9": {
+        "id": "6ad0-c6f6-b9e8-bae2",
+        "name": "Gravis Siege Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-0fa7-f692-c564-45b9": {
+        "id": "6ad0-c6f6-b9e8-bae2",
+        "name": "Gravis Siege Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-0fa7-f692-c564-45b9": {
+        "id": "6ad0-c6f6-b9e8-bae2",
+        "name": "Gravis Siege Force"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-1074-ee64-b992-ce44": {
+        "id": "aa86-1617-4029-fcd7",
+        "name": "Ironstorm Spearhead"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-1074-ee64-b992-ce44": {
+        "id": "aa86-1617-4029-fcd7",
+        "name": "Ironstorm Spearhead"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-1074-ee64-b992-ce44": {
+        "id": "aa86-1617-4029-fcd7",
+        "name": "Ironstorm Spearhead"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-1074-ee64-b992-ce44": {
+        "id": "aa86-1617-4029-fcd7",
+        "name": "Ironstorm Spearhead"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-1074-ee64-b992-ce44": {
+        "id": "aa86-1617-4029-fcd7",
+        "name": "Ironstorm Spearhead"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-1074-ee64-b992-ce44": {
+        "id": "aa86-1617-4029-fcd7",
+        "name": "Ironstorm Spearhead"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-1074-ee64-b992-ce44": {
+        "id": "aa86-1617-4029-fcd7",
+        "name": "Ironstorm Spearhead"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-1123-8770-3b67-9745": {
+        "id": "395a-ed00-a55f-49da",
+        "name": "Phobos Shadow Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-1123-8770-3b67-9745": {
+        "id": "395a-ed00-a55f-49da",
+        "name": "Phobos Shadow Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-1123-8770-3b67-9745": {
+        "id": "395a-ed00-a55f-49da",
+        "name": "Phobos Shadow Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-1123-8770-3b67-9745": {
+        "id": "395a-ed00-a55f-49da",
+        "name": "Phobos Shadow Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-1123-8770-3b67-9745": {
+        "id": "395a-ed00-a55f-49da",
+        "name": "Phobos Shadow Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-1123-8770-3b67-9745": {
+        "id": "395a-ed00-a55f-49da",
+        "name": "Phobos Shadow Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-1123-8770-3b67-9745": {
+        "id": "395a-ed00-a55f-49da",
+        "name": "Phobos Shadow Force"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-1f61-2b65-e778-d7ac": {
+        "id": "ce38-6b78-df65-e298",
+        "name": "Phobos Shock Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-1f61-2b65-e778-d7ac": {
+        "id": "ce38-6b78-df65-e298",
+        "name": "Phobos Shock Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-1f61-2b65-e778-d7ac": {
+        "id": "ce38-6b78-df65-e298",
+        "name": "Phobos Shock Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-1f61-2b65-e778-d7ac": {
+        "id": "ce38-6b78-df65-e298",
+        "name": "Phobos Shock Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-1f61-2b65-e778-d7ac": {
+        "id": "ce38-6b78-df65-e298",
+        "name": "Phobos Shock Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-1f61-2b65-e778-d7ac": {
+        "id": "ce38-6b78-df65-e298",
+        "name": "Phobos Shock Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-1f61-2b65-e778-d7ac": {
+        "id": "ce38-6b78-df65-e298",
+        "name": "Phobos Shock Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-87dd-927c-9474-ec1f": {
+        "id": "dd81-2af4-e7d9-bd07",
+        "name": "Shadowmark Talon"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-50b8-f377-c1b9-5b9c": {
+        "id": "0256-e74f-0e54-3e45",
+        "name": "Spearpoint Task Force"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-fb20-be3c-55aa-0512": {
+        "id": "50ed-e07c-8f6b-b035",
+        "name": "Stormlance Task Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-fb20-be3c-55aa-0512": {
+        "id": "50ed-e07c-8f6b-b035",
+        "name": "Stormlance Task Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-fb20-be3c-55aa-0512": {
+        "id": "50ed-e07c-8f6b-b035",
+        "name": "Stormlance Task Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-fb20-be3c-55aa-0512": {
+        "id": "50ed-e07c-8f6b-b035",
+        "name": "Stormlance Task Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-fb20-be3c-55aa-0512": {
+        "id": "50ed-e07c-8f6b-b035",
+        "name": "Stormlance Task Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-fb20-be3c-55aa-0512": {
+        "id": "50ed-e07c-8f6b-b035",
+        "name": "Stormlance Task Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-fb20-be3c-55aa-0512": {
+        "id": "50ed-e07c-8f6b-b035",
+        "name": "Stormlance Task Force"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-9a90-8bc5-27d1-4d66": {
+        "id": "ec44-c977-f09b-3f28",
+        "name": "Tactical Brethren"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-9a90-8bc5-27d1-4d66": {
+        "id": "ec44-c977-f09b-3f28",
+        "name": "Tactical Brethren"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-9a90-8bc5-27d1-4d66": {
+        "id": "ec44-c977-f09b-3f28",
+        "name": "Tactical Brethren"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-9a90-8bc5-27d1-4d66": {
+        "id": "ec44-c977-f09b-3f28",
+        "name": "Tactical Brethren"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-9a90-8bc5-27d1-4d66": {
+        "id": "ec44-c977-f09b-3f28",
+        "name": "Tactical Brethren"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-9a90-8bc5-27d1-4d66": {
+        "id": "ec44-c977-f09b-3f28",
+        "name": "Tactical Brethren"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-9a90-8bc5-27d1-4d66": {
+        "id": "ec44-c977-f09b-3f28",
+        "name": "Tactical Brethren"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-d4d1-aae4-327e-1a9f": {
+        "id": "5139-a5ca-8533-7e09",
+        "name": "Tacticus Attack Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-d4d1-aae4-327e-1a9f": {
+        "id": "5139-a5ca-8533-7e09",
+        "name": "Tacticus Attack Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-d4d1-aae4-327e-1a9f": {
+        "id": "5139-a5ca-8533-7e09",
+        "name": "Tacticus Attack Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-d4d1-aae4-327e-1a9f": {
+        "id": "5139-a5ca-8533-7e09",
+        "name": "Tacticus Attack Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-d4d1-aae4-327e-1a9f": {
+        "id": "5139-a5ca-8533-7e09",
+        "name": "Tacticus Attack Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-d4d1-aae4-327e-1a9f": {
+        "id": "5139-a5ca-8533-7e09",
+        "name": "Tacticus Attack Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-d4d1-aae4-327e-1a9f": {
+        "id": "5139-a5ca-8533-7e09",
+        "name": "Tacticus Attack Force"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-c5db-4b91-a749-bbdb": {
+        "id": "7fd4-36f8-12c0-311b",
+        "name": "Tacticus Firestorm Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-c5db-4b91-a749-bbdb": {
+        "id": "7fd4-36f8-12c0-311b",
+        "name": "Tacticus Firestorm Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-c5db-4b91-a749-bbdb": {
+        "id": "7fd4-36f8-12c0-311b",
+        "name": "Tacticus Firestorm Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-c5db-4b91-a749-bbdb": {
+        "id": "7fd4-36f8-12c0-311b",
+        "name": "Tacticus Firestorm Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-c5db-4b91-a749-bbdb": {
+        "id": "7fd4-36f8-12c0-311b",
+        "name": "Tacticus Firestorm Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-c5db-4b91-a749-bbdb": {
+        "id": "7fd4-36f8-12c0-311b",
+        "name": "Tacticus Firestorm Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-c5db-4b91-a749-bbdb": {
+        "id": "7fd4-36f8-12c0-311b",
+        "name": "Tacticus Firestorm Force"
+      },
+      "profile-detachment-option-14f0-2e5f-1ef8-7d6a-aa9e-3e30-26a9-2302": {
+        "id": "1dc3-0d2d-7cb8-b84b",
+        "name": "Terminator Storm Force"
+      },
+      "profile-detachment-option-23d7-91c9-24dc-263a-aa9e-3e30-26a9-2302": {
+        "id": "1dc3-0d2d-7cb8-b84b",
+        "name": "Terminator Storm Force"
+      },
+      "profile-detachment-option-2f78-9f73-b44f-3807-aa9e-3e30-26a9-2302": {
+        "id": "1dc3-0d2d-7cb8-b84b",
+        "name": "Terminator Storm Force"
+      },
+      "profile-detachment-option-323f-498b-f3a0-377f-aa9e-3e30-26a9-2302": {
+        "id": "1dc3-0d2d-7cb8-b84b",
+        "name": "Terminator Storm Force"
+      },
+      "profile-detachment-option-4eef-e313-1eea-94a6-aa9e-3e30-26a9-2302": {
+        "id": "1dc3-0d2d-7cb8-b84b",
+        "name": "Terminator Storm Force"
+      },
+      "profile-detachment-option-a603-5039-f08d-e841-aa9e-3e30-26a9-2302": {
+        "id": "1dc3-0d2d-7cb8-b84b",
+        "name": "Terminator Storm Force"
+      },
+      "profile-detachment-option-e0af-67df-9d63-8fb8-aa9e-3e30-26a9-2302": {
+        "id": "1dc3-0d2d-7cb8-b84b",
+        "name": "Terminator Storm Force"
+      }
+    },
+    "datasheets": {
+      "profile-unit-4eef-e313-1eea-94a6-d358-df4a-1c2f-4bff": {
+        "id": "287a-5c60-5a7e-80a8",
+        "name": "Adrax Agatone",
+        "toggles": {
+          "profile-warlord-4eef-e313-1eea-94a6-d358-df4a-1c2f-4bff": "62fb-9eb1-d30b-2c9d"
+        }
+      },
+      "profile-unit-323f-498b-f3a0-377f-c26a-e8e6-13e4-4a1e": {
+        "id": "5519-9de6-e650-d2c7",
+        "name": "Aethon Shaan",
+        "toggles": {
+          "profile-warlord-323f-498b-f3a0-377f-c26a-e8e6-13e4-4a1e": "2050-4b6a-c632-c1de"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-0fa9-7d66-9c28-632c": {
+        "id": "d0e-d643-2621-7cc9",
+        "name": "Aggressor Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-d173-3469-c40d-fd2f": {
+        "id": "cd69-af58-774-d387",
+        "name": "Ancient",
+        "choices": {
+          "03e8-d3d6-f185-97c9/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "cc35-6238-3e3a-637a/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "03e8-d3d6-f185-97c9/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "cc35-6238-3e3a-637a/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "cc35-6238-3e3a-637a/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "03e8-d3d6-f185-97c9/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "cc35-6238-3e3a-637a/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "03e8-d3d6-f185-97c9/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "cc35-6238-3e3a-637a/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "cc35-6238-3e3a-637a/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "cc35-6238-3e3a-637a/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "03e8-d3d6-f185-97c9/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "cc35-6238-3e3a-637a/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "03e8-d3d6-f185-97c9/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "cc35-6238-3e3a-637a/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "cc35-6238-3e3a-637a/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "03e8-d3d6-f185-97c9/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "cc35-6238-3e3a-637a/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "03e8-d3d6-f185-97c9/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "cc35-6238-3e3a-637a/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "cc35-6238-3e3a-637a/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "cc35-6238-3e3a-637a/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "03e8-d3d6-f185-97c9/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "cc35-6238-3e3a-637a/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "cc35-6238-3e3a-637a/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "cc35-6238-3e3a-637a/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "03e8-d3d6-f185-97c9/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "cc35-6238-3e3a-637a/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "cc35-6238-3e3a-637a/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "cc35-6238-3e3a-637a/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "cc35-6238-3e3a-637a/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "03e8-d3d6-f185-97c9/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "cc35-6238-3e3a-637a/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "cc35-6238-3e3a-637a/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "cc35-6238-3e3a-637a/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-d173-3469-c40d-fd2f": "3ca6-7594-661a-263b"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-1cfc-d693-eac1-1c99": {
+        "id": "13b9-6251-7254-4b83",
+        "name": "Ancient in Terminator Armour",
+        "choices": {
+          "f121-ce35-ab24-e074/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "bd0f-b471-577e-1e5b/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "f121-ce35-ab24-e074/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "bd0f-b471-577e-1e5b/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "bd0f-b471-577e-1e5b/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "f121-ce35-ab24-e074/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "bd0f-b471-577e-1e5b/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "f121-ce35-ab24-e074/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "bd0f-b471-577e-1e5b/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "bd0f-b471-577e-1e5b/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "bd0f-b471-577e-1e5b/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "f121-ce35-ab24-e074/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "bd0f-b471-577e-1e5b/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "f121-ce35-ab24-e074/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "bd0f-b471-577e-1e5b/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "f121-ce35-ab24-e074/24aa-c915-11e8-3b46": {
+            "69b6-9bc4-ae28-97fd": {
+              "key": "bd0f-b471-577e-1e5b/84b9-eb27-e0af-afe8",
+              "id": "76a5-1b8e-47e0-fc5f",
+              "name": "Champion of the First Company"
+            },
+            "40b7-e950-b62b-a9d9": {
+              "key": "bd0f-b471-577e-1e5b/84b9-eb27-e0af-afe8",
+              "id": "25d8-11da-8498-5ad3",
+              "name": "Corporeum Reliquary"
+            }
+          },
+          "f121-ce35-ab24-e074/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "bd0f-b471-577e-1e5b/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "bd0f-b471-577e-1e5b/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "bd0f-b471-577e-1e5b/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "f121-ce35-ab24-e074/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "bd0f-b471-577e-1e5b/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "bd0f-b471-577e-1e5b/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "bd0f-b471-577e-1e5b/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "f121-ce35-ab24-e074/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "bd0f-b471-577e-1e5b/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "bd0f-b471-577e-1e5b/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "bd0f-b471-577e-1e5b/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "bd0f-b471-577e-1e5b/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "f121-ce35-ab24-e074/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "bd0f-b471-577e-1e5b/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "bd0f-b471-577e-1e5b/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "bd0f-b471-577e-1e5b/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-1cfc-d693-eac1-1c99": "97a0-a592-2933-89e6"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-694f-e06e-063d-45b3": {
+        "id": "a74c-27a6-a054-e13c",
+        "name": "Apothecary",
+        "choices": {
+          "011f-1805-2585-a749/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "8bda-6702-97af-350e/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "011f-1805-2585-a749/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "8bda-6702-97af-350e/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "8bda-6702-97af-350e/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "011f-1805-2585-a749/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "8bda-6702-97af-350e/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "011f-1805-2585-a749/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "8bda-6702-97af-350e/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "8bda-6702-97af-350e/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "8bda-6702-97af-350e/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "011f-1805-2585-a749/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "8bda-6702-97af-350e/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "011f-1805-2585-a749/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "8bda-6702-97af-350e/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "8bda-6702-97af-350e/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "011f-1805-2585-a749/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "8bda-6702-97af-350e/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "011f-1805-2585-a749/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "8bda-6702-97af-350e/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "8bda-6702-97af-350e/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "8bda-6702-97af-350e/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "011f-1805-2585-a749/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "8bda-6702-97af-350e/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "8bda-6702-97af-350e/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "8bda-6702-97af-350e/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "011f-1805-2585-a749/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "8bda-6702-97af-350e/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "8bda-6702-97af-350e/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "8bda-6702-97af-350e/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "8bda-6702-97af-350e/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "011f-1805-2585-a749/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "8bda-6702-97af-350e/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "8bda-6702-97af-350e/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "8bda-6702-97af-350e/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-694f-e06e-063d-45b3": "fca3-e016-2f9e-7ff"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-e720-099f-afe5-4d9d": {
+        "id": "63c3-df64-ac9f-cae",
+        "name": "Apothecary Biologis",
+        "choices": {
+          "74c4-dcee-d074-d5ce/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "74cf-3cd0-57e2-7cd9/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "74c4-dcee-d074-d5ce/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "74cf-3cd0-57e2-7cd9/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "74cf-3cd0-57e2-7cd9/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            },
+            "2d5f-40c5-4e5d-0f91": {
+              "key": "74cf-3cd0-57e2-7cd9/d4c6-a853-4bda-7efd",
+              "id": "b75f-9c58-3606-bde2",
+              "name": "Honour Indefatigable"
+            }
+          },
+          "74c4-dcee-d074-d5ce/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "74cf-3cd0-57e2-7cd9/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "74c4-dcee-d074-d5ce/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "74cf-3cd0-57e2-7cd9/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "74cf-3cd0-57e2-7cd9/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "74cf-3cd0-57e2-7cd9/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "74c4-dcee-d074-d5ce/3556-a771-fbe3-001b": {
+            "ce35-182a-9105-4a89": {
+              "key": "74cf-3cd0-57e2-7cd9/f132-953b-864b-424f",
+              "id": "cdd1-8a2f-9aec-ca18",
+              "name": "Indefatigable Fortitude"
+            },
+            "f67f-d2b2-73b3-f416": {
+              "key": "74cf-3cd0-57e2-7cd9/f132-953b-864b-424f",
+              "id": "76d9-4bbd-21cb-c490",
+              "name": "Relentless Advance"
+            }
+          },
+          "74c4-dcee-d074-d5ce/8890-829d-84e7-5574": {
+            "bc18-8c7a-42f5-9ef6": {
+              "key": "74cf-3cd0-57e2-7cd9/d44f-836b-8d32-0c85",
+              "id": "9687-b4cf-a130-0857",
+              "name": "Narthecis Gauntlet"
+            }
+          },
+          "74c4-dcee-d074-d5ce/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "74cf-3cd0-57e2-7cd9/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "74c4-dcee-d074-d5ce/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "74cf-3cd0-57e2-7cd9/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "74c4-dcee-d074-d5ce/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "74cf-3cd0-57e2-7cd9/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "74cf-3cd0-57e2-7cd9/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "74cf-3cd0-57e2-7cd9/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "74c4-dcee-d074-d5ce/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "74cf-3cd0-57e2-7cd9/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "74cf-3cd0-57e2-7cd9/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "74cf-3cd0-57e2-7cd9/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "74c4-dcee-d074-d5ce/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "74cf-3cd0-57e2-7cd9/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "74cf-3cd0-57e2-7cd9/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "74cf-3cd0-57e2-7cd9/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "74cf-3cd0-57e2-7cd9/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "74c4-dcee-d074-d5ce/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "74cf-3cd0-57e2-7cd9/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "74cf-3cd0-57e2-7cd9/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "74cf-3cd0-57e2-7cd9/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-e720-099f-afe5-4d9d": "15f1-f783-aee4-f802"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-e240-cd4a-f11c-5ceb": {
+        "id": "c432-5254-8a25-6c8a",
+        "name": "Assault Intercessor Squad",
+        "choices": {
+          "1f73-d424-13dc-1165/a948-78f4-fba7-c0ea": {
+            "743e-10b4-8813-c211": {
+              "key": "c3cb-9391-aaf8-1c61/e16a-4382-f18d-ca93",
+              "id": "b681-8092-2465-7ba0",
+              "name": "Furious Assault"
+            }
+          }
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-7648-0a7c-895d-1d9a": {
+        "id": "ce90-be8f-9f47-6641",
+        "name": "Assault Intercessors with Jump Packs"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-ca61-48f8-4e14-232d": {
+        "id": "fa66-cda4-10fa-4c69",
+        "name": "Ballistus Dreadnought"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-b93a-cb63-2932-decc": {
+        "id": "b596-18b1-d905-fd1d",
+        "name": "Bladeguard Ancient",
+        "choices": {
+          "33d2-32c8-85ee-9a5e/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "1bc5-245b-1250-c19/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "1bc5-245b-1250-c19/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "1bc5-245b-1250-c19/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "1bc5-245b-1250-c19/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "1bc5-245b-1250-c19/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "1bc5-245b-1250-c19/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "1bc5-245b-1250-c19/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "1bc5-245b-1250-c19/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "1bc5-245b-1250-c19/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "1bc5-245b-1250-c19/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "1bc5-245b-1250-c19/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "1bc5-245b-1250-c19/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "1bc5-245b-1250-c19/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "1bc5-245b-1250-c19/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "1bc5-245b-1250-c19/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "1bc5-245b-1250-c19/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "1bc5-245b-1250-c19/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "1bc5-245b-1250-c19/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "1bc5-245b-1250-c19/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "1bc5-245b-1250-c19/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "1bc5-245b-1250-c19/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "33d2-32c8-85ee-9a5e/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "1bc5-245b-1250-c19/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "1bc5-245b-1250-c19/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "1bc5-245b-1250-c19/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-b93a-cb63-2932-decc": "c952-9937-d6aa-e934"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-0324-331c-c2b1-a68d": {
+        "id": "be1a-7188-94e5-3cfe",
+        "name": "Bladeguard Veteran Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-edfc-ce7c-8666-cb86": {
+        "id": "f6b9-71b1-297a-c13a",
+        "name": "Brutalis Dreadnought",
+        "choices": {
+          "460a-5663-1838-60e6": {
+            "4e40-ca32-e925-b34b": {
+              "key": "c38d-536f-fa2d-9895/da4-fa24-f9c9-bdc0",
+              "id": "e99e-b2c0-4c80-779b",
+              "name": "Twin Heavy Bolter"
+            },
+            "9f60-30a0-9174-77ca": {
+              "key": "c38d-536f-fa2d-9895/6099-9d44-6aee-cd5b",
+              "id": "3221-309e-810a-39a9",
+              "name": "Brutalis Talons"
+            }
+          }
+        }
+      },
+      "profile-unit-14f0-2e5f-1ef8-7d6a-c724-761a-086d-7373": {
+        "id": "bea0-eae7-2100-53a7",
+        "name": "Caanok Var",
+        "toggles": {
+          "profile-warlord-14f0-2e5f-1ef8-7d6a-c724-761a-086d-7373": "baac-cd99-8687-e276"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-024a-3fea-7765-4e82": {
+        "id": "91e3-a419-8c58-98f5",
+        "name": "Captain",
+        "choices": {
+          "e038-1d97-3bd5-d639": {
+            "7f6a-be5f-6a19-acf4": {
+              "key": "ccdb-b984-df14-9b54/c6aa-b3a5-4ff3-e0d3/1591-a4ae-50fb-3c21",
+              "id": "e77-5303-12ad-cbde",
+              "name": "Master-crafted Power Weapon"
+            },
+            "1e33-9a19-2d1c-418f": {
+              "key": "ccdb-b984-df14-9b54/c6aa-b3a5-4ff3-e0d3/1591-a4ae-50fb-3c21",
+              "id": "667f-2fe-d8c8-c6f7",
+              "name": "Power Fist"
+            }
+          },
+          "bf35-d102-b5f2-0b01/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "c055-7d2-bf2-51bc/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "bf35-d102-b5f2-0b01/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "c055-7d2-bf2-51bc/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "c055-7d2-bf2-51bc/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "bf35-d102-b5f2-0b01/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "c055-7d2-bf2-51bc/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "bf35-d102-b5f2-0b01/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "c055-7d2-bf2-51bc/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "c055-7d2-bf2-51bc/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "1cfb-92b0-6da3-f568": {
+              "key": "c055-7d2-bf2-51bc/dff5-fd4c-749d-e42",
+              "id": "c0aa-7c93-7b8f-5585",
+              "name": "Adept of the Codex"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "c055-7d2-bf2-51bc/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "bf35-d102-b5f2-0b01/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "c055-7d2-bf2-51bc/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            },
+            "a302-1e88-f7a8-d1ff": {
+              "key": "c055-7d2-bf2-51bc/2dbd-da3d-a555-1d44",
+              "id": "dc6d-56ce-d574-ee04",
+              "name": "Tactical Insight"
+            }
+          },
+          "bf35-d102-b5f2-0b01/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "c055-7d2-bf2-51bc/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "c055-7d2-bf2-51bc/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "bf35-d102-b5f2-0b01/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "c055-7d2-bf2-51bc/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "bf35-d102-b5f2-0b01/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "c055-7d2-bf2-51bc/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "c055-7d2-bf2-51bc/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "c055-7d2-bf2-51bc/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "bf35-d102-b5f2-0b01/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "c055-7d2-bf2-51bc/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "c055-7d2-bf2-51bc/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "c055-7d2-bf2-51bc/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "bf35-d102-b5f2-0b01/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "c055-7d2-bf2-51bc/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "c055-7d2-bf2-51bc/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "c055-7d2-bf2-51bc/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "c055-7d2-bf2-51bc/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "bf35-d102-b5f2-0b01/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "c055-7d2-bf2-51bc/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "c055-7d2-bf2-51bc/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "c055-7d2-bf2-51bc/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-024a-3fea-7765-4e82": "a89c-b01e-ffab-8ebb"
+        }
+      },
+      "profile-unit-a603-5039-f08d-e841-0217-bbe5-6876-d2d8": {
+        "id": "69f6-bff7-d28a-e0c3",
+        "name": "Captain Titus",
+        "toggles": {
+          "profile-warlord-a603-5039-f08d-e841-0217-bbe5-6876-d2d8": "6db3-cc3f-51ea-d259"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-1f47-6549-ea96-fba0": {
+        "id": "152d-fdb1-dfcd-2251",
+        "name": "Captain in Gravis Armour",
+        "choices": {
+          "d6f8-49da-927a-8b23/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "bc41-9bd9-b7a-ca90/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "d6f8-49da-927a-8b23/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "bc41-9bd9-b7a-ca90/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "bc41-9bd9-b7a-ca90/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            },
+            "2d5f-40c5-4e5d-0f91": {
+              "key": "bc41-9bd9-b7a-ca90/d4c6-a853-4bda-7efd",
+              "id": "b75f-9c58-3606-bde2",
+              "name": "Honour Indefatigable"
+            }
+          },
+          "d6f8-49da-927a-8b23/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "bc41-9bd9-b7a-ca90/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "d6f8-49da-927a-8b23/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "bc41-9bd9-b7a-ca90/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "bc41-9bd9-b7a-ca90/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "1cfb-92b0-6da3-f568": {
+              "key": "bc41-9bd9-b7a-ca90/dff5-fd4c-749d-e42",
+              "id": "c0aa-7c93-7b8f-5585",
+              "name": "Adept of the Codex"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "bc41-9bd9-b7a-ca90/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "d6f8-49da-927a-8b23/3556-a771-fbe3-001b": {
+            "ce35-182a-9105-4a89": {
+              "key": "bc41-9bd9-b7a-ca90/f132-953b-864b-424f",
+              "id": "cdd1-8a2f-9aec-ca18",
+              "name": "Indefatigable Fortitude"
+            },
+            "f67f-d2b2-73b3-f416": {
+              "key": "bc41-9bd9-b7a-ca90/f132-953b-864b-424f",
+              "id": "76d9-4bbd-21cb-c490",
+              "name": "Relentless Advance"
+            }
+          },
+          "d6f8-49da-927a-8b23/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "bc41-9bd9-b7a-ca90/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            },
+            "a302-1e88-f7a8-d1ff": {
+              "key": "bc41-9bd9-b7a-ca90/2dbd-da3d-a555-1d44",
+              "id": "dc6d-56ce-d574-ee04",
+              "name": "Tactical Insight"
+            }
+          },
+          "d6f8-49da-927a-8b23/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "bc41-9bd9-b7a-ca90/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "d6f8-49da-927a-8b23/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "bc41-9bd9-b7a-ca90/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "bc41-9bd9-b7a-ca90/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "bc41-9bd9-b7a-ca90/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "d6f8-49da-927a-8b23/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "bc41-9bd9-b7a-ca90/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "bc41-9bd9-b7a-ca90/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "bc41-9bd9-b7a-ca90/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "d6f8-49da-927a-8b23/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "bc41-9bd9-b7a-ca90/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "bc41-9bd9-b7a-ca90/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "bc41-9bd9-b7a-ca90/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "bc41-9bd9-b7a-ca90/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "d6f8-49da-927a-8b23/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "bc41-9bd9-b7a-ca90/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "bc41-9bd9-b7a-ca90/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "bc41-9bd9-b7a-ca90/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-1f47-6549-ea96-fba0": "b29-1397-edf-bf99"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-8758-0628-4020-ed35": {
+        "id": "2632-9483-b17f-ff52",
+        "name": "Captain in Phobos Armour",
+        "choices": {
+          "9d6b-02b8-5e09-e7a1/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "2e37-8205-7b63-e5d1/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "2e37-8205-7b63-e5d1/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "2e37-8205-7b63-e5d1/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "2e37-8205-7b63-e5d1/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "2e37-8205-7b63-e5d1/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "2e37-8205-7b63-e5d1/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "1cfb-92b0-6da3-f568": {
+              "key": "2e37-8205-7b63-e5d1/dff5-fd4c-749d-e42",
+              "id": "c0aa-7c93-7b8f-5585",
+              "name": "Adept of the Codex"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "2e37-8205-7b63-e5d1/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/49d8-5417-0279-522e": {
+            "e1d2-8016-020d-3e86": {
+              "key": "2e37-8205-7b63-e5d1/dbbc-e2b2-c784-25b3",
+              "id": "9aa9-68b5-3a31-098c",
+              "name": "Venator Omni-Auspex"
+            },
+            "fdb9-d2f9-4727-6b25": {
+              "key": "2e37-8205-7b63-e5d1/dbbc-e2b2-c784-25b3",
+              "id": "2b3c-517a-622d-58de",
+              "name": "Execute and Redeploy"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/4c85-67f0-c2ec-ba23": {
+            "0694-9667-55c7-87ad": {
+              "key": "2e37-8205-7b63-e5d1/bc21-460d-8525-5e4a",
+              "id": "8491-da48-8fe2-7914",
+              "name": "Seal of Shrouding"
+            },
+            "1bc6-8d70-d99d-b5d4": {
+              "key": "2e37-8205-7b63-e5d1/bc21-460d-8525-5e4a",
+              "id": "07e5-917e-6e81-036a",
+              "name": "Venator Omni-Auspex"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "2e37-8205-7b63-e5d1/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            },
+            "a302-1e88-f7a8-d1ff": {
+              "key": "2e37-8205-7b63-e5d1/2dbd-da3d-a555-1d44",
+              "id": "dc6d-56ce-d574-ee04",
+              "name": "Tactical Insight"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "2e37-8205-7b63-e5d1/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "2e37-8205-7b63-e5d1/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "7cff-3051-870d-1a96": {
+              "key": "2e37-8205-7b63-e5d1/bf5c-5901-49fc-c476",
+              "id": "9b11-0170-0a69-8d92",
+              "name": "Coronal Susurrant"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "2e37-8205-7b63-e5d1/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "2e37-8205-7b63-e5d1/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "2e37-8205-7b63-e5d1/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "2e37-8205-7b63-e5d1/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "2e37-8205-7b63-e5d1/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "2e37-8205-7b63-e5d1/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "2e37-8205-7b63-e5d1/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "2e37-8205-7b63-e5d1/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "2e37-8205-7b63-e5d1/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "9d6b-02b8-5e09-e7a1/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "2e37-8205-7b63-e5d1/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "2e37-8205-7b63-e5d1/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "2e37-8205-7b63-e5d1/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-8758-0628-4020-ed35": "a86d-28dd-aa1b-fc5"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-2187-ce0d-9264-eddc": {
+        "id": "5e35-ae82-23e4-bcef",
+        "name": "Captain in Terminator Armour",
+        "choices": {
+          "dbf0-be6e-6198-5d78": {
+            "59da-3a14-61d2-4cdd": {
+              "key": "2abd-e1c7-2da7-3aeb/db0a-aa8b-a77d-6830",
+              "id": "ce3e-263-7208-680a",
+              "name": "Relic Weapon"
+            },
+            "b1fe-14db-a213-422b": {
+              "key": "2abd-e1c7-2da7-3aeb/db0a-aa8b-a77d-6830",
+              "id": "550e-cce7-dec9-ed31",
+              "name": "Relic Fist"
+            }
+          },
+          "fe66-9007-2127-99eb/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "770c-2532-7d6-1a45/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "fe66-9007-2127-99eb/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "770c-2532-7d6-1a45/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "770c-2532-7d6-1a45/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "fe66-9007-2127-99eb/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "770c-2532-7d6-1a45/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "fe66-9007-2127-99eb/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "770c-2532-7d6-1a45/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "770c-2532-7d6-1a45/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "1cfb-92b0-6da3-f568": {
+              "key": "770c-2532-7d6-1a45/dff5-fd4c-749d-e42",
+              "id": "c0aa-7c93-7b8f-5585",
+              "name": "Adept of the Codex"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "770c-2532-7d6-1a45/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "fe66-9007-2127-99eb/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "770c-2532-7d6-1a45/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            },
+            "a302-1e88-f7a8-d1ff": {
+              "key": "770c-2532-7d6-1a45/2dbd-da3d-a555-1d44",
+              "id": "dc6d-56ce-d574-ee04",
+              "name": "Tactical Insight"
+            }
+          },
+          "fe66-9007-2127-99eb/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "770c-2532-7d6-1a45/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "fe66-9007-2127-99eb/24aa-c915-11e8-3b46": {
+            "69b6-9bc4-ae28-97fd": {
+              "key": "770c-2532-7d6-1a45/84b9-eb27-e0af-afe8",
+              "id": "76a5-1b8e-47e0-fc5f",
+              "name": "Champion of the First Company"
+            },
+            "40b7-e950-b62b-a9d9": {
+              "key": "770c-2532-7d6-1a45/84b9-eb27-e0af-afe8",
+              "id": "25d8-11da-8498-5ad3",
+              "name": "Corporeum Reliquary"
+            }
+          },
+          "fe66-9007-2127-99eb/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "770c-2532-7d6-1a45/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "770c-2532-7d6-1a45/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "770c-2532-7d6-1a45/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "fe66-9007-2127-99eb/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "770c-2532-7d6-1a45/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "770c-2532-7d6-1a45/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "770c-2532-7d6-1a45/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "fe66-9007-2127-99eb/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "770c-2532-7d6-1a45/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "770c-2532-7d6-1a45/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "770c-2532-7d6-1a45/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "770c-2532-7d6-1a45/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "fe66-9007-2127-99eb/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "770c-2532-7d6-1a45/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "770c-2532-7d6-1a45/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "770c-2532-7d6-1a45/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-2187-ce0d-9264-eddc": "26b7-1153-5895-a3dc"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-e3bb-4830-d4fb-1484": {
+        "id": "a388-53ee-bb25-8639",
+        "name": "Captain on Bike",
+        "choices": {
+          "1338-759f-58a8-fcae": {
+            "9347-26a2-4a29-7d84": {
+              "key": "12c1-59de-bc36-deef/ae06-b125-4d9f-830e",
+              "id": "a866-8142-258e-b702",
+              "name": "Master-crafted Power Weapon"
+            },
+            "be68-5141-af6f-0258": {
+              "key": "12c1-59de-bc36-deef/ae06-b125-4d9f-830e",
+              "id": "5eb4-3d02-70af-a916",
+              "name": "Thunder Hammer"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "37d1-270a-db3c-fcaf/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "37d1-270a-db3c-fcaf/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "37d1-270a-db3c-fcaf/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "37d1-270a-db3c-fcaf/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "37d1-270a-db3c-fcaf/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "37d1-270a-db3c-fcaf/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "1cfb-92b0-6da3-f568": {
+              "key": "37d1-270a-db3c-fcaf/dff5-fd4c-749d-e42",
+              "id": "c0aa-7c93-7b8f-5585",
+              "name": "Adept of the Codex"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "37d1-270a-db3c-fcaf/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "37d1-270a-db3c-fcaf/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            },
+            "a302-1e88-f7a8-d1ff": {
+              "key": "37d1-270a-db3c-fcaf/2dbd-da3d-a555-1d44",
+              "id": "dc6d-56ce-d574-ee04",
+              "name": "Tactical Insight"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "37d1-270a-db3c-fcaf/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "37d1-270a-db3c-fcaf/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "37d1-270a-db3c-fcaf/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "37d1-270a-db3c-fcaf/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "37d1-270a-db3c-fcaf/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "37d1-270a-db3c-fcaf/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "37d1-270a-db3c-fcaf/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "37d1-270a-db3c-fcaf/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "37d1-270a-db3c-fcaf/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "37d1-270a-db3c-fcaf/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "37d1-270a-db3c-fcaf/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "ef6e-c2a6-8c4e-d933/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "37d1-270a-db3c-fcaf/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "37d1-270a-db3c-fcaf/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "37d1-270a-db3c-fcaf/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-e3bb-4830-d4fb-1484": "40bf-ae01-30d2-ab31"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-f970-d8cc-1421-7fba": {
+        "id": "959a-a3bc-4814-fa9a",
+        "name": "Captain with Jump Pack",
+        "choices": {
+          "1fb8-9b2f-0e24-6b52/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "411-eca0-713f-fa99/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "411-eca0-713f-fa99/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "411-eca0-713f-fa99/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "411-eca0-713f-fa99/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "411-eca0-713f-fa99/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "411-eca0-713f-fa99/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "1cfb-92b0-6da3-f568": {
+              "key": "411-eca0-713f-fa99/dff5-fd4c-749d-e42",
+              "id": "c0aa-7c93-7b8f-5585",
+              "name": "Adept of the Codex"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "411-eca0-713f-fa99/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "411-eca0-713f-fa99/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            },
+            "a302-1e88-f7a8-d1ff": {
+              "key": "411-eca0-713f-fa99/2dbd-da3d-a555-1d44",
+              "id": "dc6d-56ce-d574-ee04",
+              "name": "Tactical Insight"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "411-eca0-713f-fa99/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "411-eca0-713f-fa99/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "411-eca0-713f-fa99/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "411-eca0-713f-fa99/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "411-eca0-713f-fa99/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "411-eca0-713f-fa99/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "411-eca0-713f-fa99/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "411-eca0-713f-fa99/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "411-eca0-713f-fa99/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "411-eca0-713f-fa99/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "411-eca0-713f-fa99/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "411-eca0-713f-fa99/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "411-eca0-713f-fa99/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "1fb8-9b2f-0e24-6b52/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "411-eca0-713f-fa99/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "411-eca0-713f-fa99/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "411-eca0-713f-fa99/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-f970-d8cc-1421-7fba": "a4ca-3d53-781f-1798"
+        }
+      },
+      "profile-unit-a603-5039-f08d-e841-9540-c267-2f48-7b7b": {
+        "id": "4796-e4e0-774f-6785",
+        "name": "Cato Sicarius",
+        "toggles": {
+          "profile-warlord-a603-5039-f08d-e841-9540-c267-2f48-7b7b": "13fd-bc06-7bdf-c342"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-7a1d-9822-8027-43d4": {
+        "id": "dfb5-f763-308d-e0d9",
+        "name": "Chaplain",
+        "choices": {
+          "bc91-5bc0-148f-5e7f/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "610b-b628-f6cc-bb07/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "610b-b628-f6cc-bb07/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "610b-b628-f6cc-bb07/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "610b-b628-f6cc-bb07/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "610b-b628-f6cc-bb07/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "610b-b628-f6cc-bb07/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "610b-b628-f6cc-bb07/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "610b-b628-f6cc-bb07/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "610b-b628-f6cc-bb07/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "610b-b628-f6cc-bb07/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "610b-b628-f6cc-bb07/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "610b-b628-f6cc-bb07/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "610b-b628-f6cc-bb07/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "610b-b628-f6cc-bb07/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "610b-b628-f6cc-bb07/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "610b-b628-f6cc-bb07/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "610b-b628-f6cc-bb07/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "610b-b628-f6cc-bb07/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "610b-b628-f6cc-bb07/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "610b-b628-f6cc-bb07/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "610b-b628-f6cc-bb07/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "bc91-5bc0-148f-5e7f/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "610b-b628-f6cc-bb07/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "610b-b628-f6cc-bb07/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "610b-b628-f6cc-bb07/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-7a1d-9822-8027-43d4": "5f28-f3b7-3dcc-b7ad"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-9e2f-b411-4b73-257f": {
+        "id": "86ef-6d98-914b-5015",
+        "name": "Chaplain in Terminator Armour",
+        "choices": {
+          "27ff-def7-f49d-5c0b/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "db57-377c-ca5b-df39/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "27ff-def7-f49d-5c0b/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "db57-377c-ca5b-df39/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "db57-377c-ca5b-df39/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "27ff-def7-f49d-5c0b/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "db57-377c-ca5b-df39/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "27ff-def7-f49d-5c0b/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "db57-377c-ca5b-df39/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "db57-377c-ca5b-df39/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "db57-377c-ca5b-df39/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "27ff-def7-f49d-5c0b/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "db57-377c-ca5b-df39/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "27ff-def7-f49d-5c0b/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "db57-377c-ca5b-df39/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "27ff-def7-f49d-5c0b/24aa-c915-11e8-3b46": {
+            "69b6-9bc4-ae28-97fd": {
+              "key": "db57-377c-ca5b-df39/84b9-eb27-e0af-afe8",
+              "id": "76a5-1b8e-47e0-fc5f",
+              "name": "Champion of the First Company"
+            },
+            "40b7-e950-b62b-a9d9": {
+              "key": "db57-377c-ca5b-df39/84b9-eb27-e0af-afe8",
+              "id": "25d8-11da-8498-5ad3",
+              "name": "Corporeum Reliquary"
+            }
+          },
+          "27ff-def7-f49d-5c0b/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "db57-377c-ca5b-df39/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "db57-377c-ca5b-df39/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "db57-377c-ca5b-df39/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "27ff-def7-f49d-5c0b/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "db57-377c-ca5b-df39/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "db57-377c-ca5b-df39/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "db57-377c-ca5b-df39/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "27ff-def7-f49d-5c0b/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "db57-377c-ca5b-df39/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "db57-377c-ca5b-df39/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "db57-377c-ca5b-df39/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "db57-377c-ca5b-df39/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "27ff-def7-f49d-5c0b/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "db57-377c-ca5b-df39/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "db57-377c-ca5b-df39/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "db57-377c-ca5b-df39/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-9e2f-b411-4b73-257f": "6e34-5877-9cc4-242b"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-ec2d-903c-395e-9dd0": {
+        "id": "618c-29ed-bec5-bd81",
+        "name": "Chaplain on Bike",
+        "choices": {
+          "dfed-2c04-0045-0f19/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "497b-70e4-5dae-eab/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "dfed-2c04-0045-0f19/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "497b-70e4-5dae-eab/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "497b-70e4-5dae-eab/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "dfed-2c04-0045-0f19/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "497b-70e4-5dae-eab/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "dfed-2c04-0045-0f19/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "497b-70e4-5dae-eab/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "497b-70e4-5dae-eab/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "497b-70e4-5dae-eab/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "dfed-2c04-0045-0f19/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "497b-70e4-5dae-eab/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "dfed-2c04-0045-0f19/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "497b-70e4-5dae-eab/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "dfed-2c04-0045-0f19/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "497b-70e4-5dae-eab/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "497b-70e4-5dae-eab/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "497b-70e4-5dae-eab/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "dfed-2c04-0045-0f19/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "497b-70e4-5dae-eab/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "497b-70e4-5dae-eab/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "497b-70e4-5dae-eab/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "dfed-2c04-0045-0f19/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "497b-70e4-5dae-eab/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "497b-70e4-5dae-eab/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "497b-70e4-5dae-eab/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "497b-70e4-5dae-eab/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "dfed-2c04-0045-0f19/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "497b-70e4-5dae-eab/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "497b-70e4-5dae-eab/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "497b-70e4-5dae-eab/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-ec2d-903c-395e-9dd0": "1fbb-be8e-6152-ebc5"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-8796-469b-4d8c-f1bf": {
+        "id": "6b65-2af1-d055-eb4d",
+        "name": "Chaplain with Jump Pack",
+        "choices": {
+          "bc5f-16d0-a525-ebe9/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "d378-d127-aeda-5683/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "d378-d127-aeda-5683/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "d378-d127-aeda-5683/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "d378-d127-aeda-5683/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "d378-d127-aeda-5683/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "d378-d127-aeda-5683/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "d378-d127-aeda-5683/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "d378-d127-aeda-5683/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "d378-d127-aeda-5683/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "d378-d127-aeda-5683/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "d378-d127-aeda-5683/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "d378-d127-aeda-5683/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "d378-d127-aeda-5683/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "d378-d127-aeda-5683/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "d378-d127-aeda-5683/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "d378-d127-aeda-5683/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "d378-d127-aeda-5683/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "d378-d127-aeda-5683/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "d378-d127-aeda-5683/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "bc5f-16d0-a525-ebe9/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "d378-d127-aeda-5683/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "d378-d127-aeda-5683/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "d378-d127-aeda-5683/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-8796-469b-4d8c-f1bf": "7963-adcc-d4fd-e8d6"
+        }
+      },
+      "profile-unit-a603-5039-f08d-e841-e56e-3398-3e8a-9a00": {
+        "id": "5909-4c97-aba1-e481",
+        "name": "Chief Librarian Tigurius",
+        "toggles": {
+          "profile-warlord-a603-5039-f08d-e841-e56e-3398-3e8a-9a00": "eec5-5f37-c9bd-889"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-ea87-dfb6-9f4f-56f9": {
+        "id": "8a1e-45c9-7719-b8c3",
+        "name": "Company Heroes"
+      },
+      "profile-unit-23d7-91c9-24dc-263a-75de-8824-bd0a-ec77": {
+        "id": "1b9c-5fc3-d8c7-46fa",
+        "name": "Darnath Lysander",
+        "toggles": {
+          "profile-warlord-23d7-91c9-24dc-263a-75de-8824-bd0a-ec77": "5731-527b-3b65-d257"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-55fe-55b2-1b15-0bc6": {
+        "id": "d7cd-4833-9dc7-6857",
+        "name": "Desolation Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-f60c-f331-24f3-1f9a": {
+        "id": "c4d5-4a1b-2b29-d473",
+        "name": "Drop Pod"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-0fe1-f0f4-010d-8104": {
+        "id": "be63-b837-d723-d3c6",
+        "name": "Eliminator Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-aec6-0bec-09a4-69a9": {
+        "id": "a5ca-1425-805a-360d",
+        "name": "Eradicator Squad with Heavy Bolters"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-71f5-e3d3-9805-87c4": {
+        "id": "1b37-d674-f2ef-6d3b",
+        "name": "Eradicator Squad with Melta Rifles"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-dbdb-105f-012d-1a65": {
+        "id": "7d2-9663-8ccc-8595",
+        "name": "Firestrike Servo-turrets"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-bd0a-325a-8e1b-1ddf": {
+        "id": "774e-1b48-d9b4-84b8",
+        "name": "Gladiator Lancer"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-bc06-2cb9-4ec5-4e64": {
+        "id": "67b0-bbc-b17-24f4",
+        "name": "Gladiator Reaper"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-3f19-f63a-0c0b-0817": {
+        "id": "af30-8cda-c8d2-4ac3",
+        "name": "Gladiator Valiant"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-9b37-5504-5e86-3307": {
+        "id": "44a8-9703-5aed-64f",
+        "name": "Heavy Intercessor Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-dd93-e56f-754e-f256": {
+        "id": "4c8-e877-566b-a1ee",
+        "name": "Hellblaster Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-ac99-397f-b79e-fb2a": {
+        "id": "3fe5-fdf6-5abc-c60f",
+        "name": "Impulsor",
+        "choices": {
+          "ece2-d5ed-d97d-df06": {
+            "b74e-bee2-b6b5-8292": {
+              "key": "cbe2-7302-9573-7f47/edd-ef25-4c7f-69d8",
+              "id": "58ca-ddd8-9aff-6a53",
+              "name": "Storm Bolters"
+            },
+            "3013-7d3a-4081-87a0": {
+              "key": "cbe2-7302-9573-7f47/edd-ef25-4c7f-69d8",
+              "id": "ddc4-bc6f-8795-f560",
+              "name": "Fragstorm Grenade Launchers"
+            }
+          }
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-662d-d4b4-cacb-bf92": {
+        "id": "28ff-a147-b488-2411",
+        "name": "Inceptor Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-1baa-567f-fcb6-cae0": {
+        "id": "19ec-f615-a22c-431",
+        "name": "Incursor Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-a4b6-30a3-4226-3792": {
+        "id": "20b3-f504-9c79-bc74",
+        "name": "Infernus Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-5fc3-3634-4474-ba64": {
+        "id": "5c31-c468-f354-c0a6",
+        "name": "Infiltrator Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-34c7-75dd-fcff-ec94": {
+        "id": "85b1-eb9a-17a6-e5be",
+        "name": "Intercessor Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-c56a-52ea-0da0-4bb5": {
+        "id": "8b71-580f-ad19-83d7",
+        "name": "Invader ATVs"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-527e-3fe7-a2d9-b064": {
+        "id": "868c-850d-ca57-b4b7",
+        "name": "Invictor Tactical Warsuit",
+        "choices": {
+          "cb7e-b977-aafa-4089": {
+            "135e-dbdd-5a81-4e65": {
+              "key": "66f2-362c-f7ee-0bf4/80c0-6ccf-e658-99a5",
+              "id": "14ed-c94e-6f45-4f65",
+              "name": "Incendium Cannon"
+            },
+            "fd1f-87d3-801b-3aa0": {
+              "key": "66f2-362c-f7ee-0bf4/80c0-6ccf-e658-99a5",
+              "id": "72cf-3f4e-e850-4265",
+              "name": "Twin Ironhail Autocannon"
+            }
+          }
+        }
+      },
+      "profile-unit-14f0-2e5f-1ef8-7d6a-130b-10a7-d149-0992": {
+        "id": "545-17a0-487d-d535",
+        "name": "Iron Father Feirros",
+        "toggles": {
+          "profile-warlord-14f0-2e5f-1ef8-7d6a-130b-10a7-d149-0992": "7e89-9319-8a6b-ce5c"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-5d60-adc0-d447-305f": {
+        "id": "219b-58dd-df81-b99e",
+        "name": "Judiciar",
+        "choices": {
+          "6e11-8532-58cc-7a5e/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "ffe4-f98-1180-f8ea/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "6e11-8532-58cc-7a5e/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "ffe4-f98-1180-f8ea/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "ffe4-f98-1180-f8ea/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "6e11-8532-58cc-7a5e/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "ffe4-f98-1180-f8ea/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "6e11-8532-58cc-7a5e/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "ffe4-f98-1180-f8ea/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "ffe4-f98-1180-f8ea/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "ffe4-f98-1180-f8ea/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "6e11-8532-58cc-7a5e/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "ffe4-f98-1180-f8ea/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "6e11-8532-58cc-7a5e/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "ffe4-f98-1180-f8ea/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "ffe4-f98-1180-f8ea/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "6e11-8532-58cc-7a5e/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "ffe4-f98-1180-f8ea/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "6e11-8532-58cc-7a5e/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "ffe4-f98-1180-f8ea/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "ffe4-f98-1180-f8ea/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "ffe4-f98-1180-f8ea/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "6e11-8532-58cc-7a5e/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "ffe4-f98-1180-f8ea/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "ffe4-f98-1180-f8ea/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "ffe4-f98-1180-f8ea/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "6e11-8532-58cc-7a5e/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "ffe4-f98-1180-f8ea/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "ffe4-f98-1180-f8ea/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "ffe4-f98-1180-f8ea/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "ffe4-f98-1180-f8ea/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "6e11-8532-58cc-7a5e/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "ffe4-f98-1180-f8ea/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "ffe4-f98-1180-f8ea/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "ffe4-f98-1180-f8ea/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-5d60-adc0-d447-305f": "84c4-85e7-6885-e26f"
+        }
+      },
+      "profile-unit-a603-5039-f08d-e841-2431-2bbc-2e5f-577f": {
+        "id": "ba2d-0015-b7d1-2f60",
+        "name": "Kaius Konorius",
+        "toggles": {
+          "profile-warlord-a603-5039-f08d-e841-2431-2bbc-2e5f-577f": "ecc3-b9c8-f0dd-c529"
+        }
+      },
+      "profile-unit-323f-498b-f3a0-377f-a63c-0a29-c07e-f0a2": {
+        "id": "8ec7-1c8b-5540-5f14",
+        "name": "Kayvaan Shrike"
+      },
+      "profile-unit-2f78-9f73-b44f-3807-7f1b-638d-ac3b-f280": {
+        "id": "ed84-3c2a-5346-ca97",
+        "name": "Kor'sarro Khan",
+        "toggles": {
+          "profile-warlord-2f78-9f73-b44f-3807-7f1b-638d-ac3b-f280": "3e75-6a41-b3f8-b8bd"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-4c95-c977-744b-a692": {
+        "id": "8c40-7f05-28ff-5e1a",
+        "name": "Land Raider"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-1965-9ab1-a8f1-ab75": {
+        "id": "e7d6-b926-8592-d625",
+        "name": "Land Raider Crusader"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-e125-3e2b-4348-d58b": {
+        "id": "2b9d-9c13-9277-d157",
+        "name": "Land Raider Redeemer"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-df9f-c030-c2e8-46ae": {
+        "id": "031c-5afa-268d-9b47",
+        "name": "Land Speeder",
+        "choices": {
+          "3ca4-4e58-783d-c17c": {
+            "c1c4-a8cb-d83b-07f7": {
+              "key": "a516-0086-9ffb-0692",
+              "id": "b8c5-61e3-711f-ea8f",
+              "name": "Onslaught Gatling Cannon"
+            },
+            "64ba-f637-3503-9e5f": {
+              "key": "a516-0086-9ffb-0692",
+              "id": "f2e6-d439-781e-982b",
+              "name": "Pyrecannon"
+            }
+          }
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-09af-bb0d-dc83-59f7": {
+        "id": "b62e-cd23-d338-8142",
+        "name": "Librarian",
+        "choices": {
+          "d5ef-e7f9-d392-1db9/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "9180-2020-d231-94f9/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "9180-2020-d231-94f9/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "9180-2020-d231-94f9/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "9180-2020-d231-94f9/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "9180-2020-d231-94f9/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "9180-2020-d231-94f9/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "9180-2020-d231-94f9/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "9180-2020-d231-94f9/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "9180-2020-d231-94f9/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "9180-2020-d231-94f9/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "9180-2020-d231-94f9/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "9180-2020-d231-94f9/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "9180-2020-d231-94f9/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "9180-2020-d231-94f9/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "9180-2020-d231-94f9/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "9180-2020-d231-94f9/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "9180-2020-d231-94f9/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "9180-2020-d231-94f9/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "9180-2020-d231-94f9/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "9180-2020-d231-94f9/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "9180-2020-d231-94f9/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "d5ef-e7f9-d392-1db9/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "9180-2020-d231-94f9/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "9180-2020-d231-94f9/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "9180-2020-d231-94f9/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-09af-bb0d-dc83-59f7": "b225-9469-fcfe-138a"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-ba75-8b35-9fd1-9508": {
+        "id": "a8b0-fc91-17d5-5963",
+        "name": "Librarian in Phobos Armour",
+        "choices": {
+          "ca63-a086-04f3-68ed/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "18db-4736-8457-fccf/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "ca63-a086-04f3-68ed/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "18db-4736-8457-fccf/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "18db-4736-8457-fccf/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "ca63-a086-04f3-68ed/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "18db-4736-8457-fccf/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "ca63-a086-04f3-68ed/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "18db-4736-8457-fccf/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "18db-4736-8457-fccf/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "18db-4736-8457-fccf/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "ca63-a086-04f3-68ed/49d8-5417-0279-522e": {
+            "e1d2-8016-020d-3e86": {
+              "key": "18db-4736-8457-fccf/dbbc-e2b2-c784-25b3",
+              "id": "9aa9-68b5-3a31-098c",
+              "name": "Venator Omni-Auspex"
+            },
+            "fdb9-d2f9-4727-6b25": {
+              "key": "18db-4736-8457-fccf/dbbc-e2b2-c784-25b3",
+              "id": "2b3c-517a-622d-58de",
+              "name": "Execute and Redeploy"
+            }
+          },
+          "ca63-a086-04f3-68ed/4c85-67f0-c2ec-ba23": {
+            "0694-9667-55c7-87ad": {
+              "key": "18db-4736-8457-fccf/bc21-460d-8525-5e4a",
+              "id": "8491-da48-8fe2-7914",
+              "name": "Seal of Shrouding"
+            },
+            "1bc6-8d70-d99d-b5d4": {
+              "key": "18db-4736-8457-fccf/bc21-460d-8525-5e4a",
+              "id": "07e5-917e-6e81-036a",
+              "name": "Venator Omni-Auspex"
+            }
+          },
+          "ca63-a086-04f3-68ed/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "18db-4736-8457-fccf/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "ca63-a086-04f3-68ed/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "18db-4736-8457-fccf/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "ca63-a086-04f3-68ed/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "18db-4736-8457-fccf/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "7cff-3051-870d-1a96": {
+              "key": "18db-4736-8457-fccf/bf5c-5901-49fc-c476",
+              "id": "9b11-0170-0a69-8d92",
+              "name": "Coronal Susurrant"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "18db-4736-8457-fccf/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "18db-4736-8457-fccf/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "ca63-a086-04f3-68ed/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "18db-4736-8457-fccf/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "18db-4736-8457-fccf/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "18db-4736-8457-fccf/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "ca63-a086-04f3-68ed/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "18db-4736-8457-fccf/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "18db-4736-8457-fccf/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "18db-4736-8457-fccf/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "18db-4736-8457-fccf/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "ca63-a086-04f3-68ed/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "18db-4736-8457-fccf/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "18db-4736-8457-fccf/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "18db-4736-8457-fccf/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-ba75-8b35-9fd1-9508": "daf5-72eb-9dee-2612"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-0ece-26db-64d5-6a9b": {
+        "id": "634d-dab3-fa1a-958c",
+        "name": "Librarian in Terminator Armour",
+        "choices": {
+          "fea5-fd88-e3a9-56e8/a948-78f4-fba7-c0ea": {
+            "743e-10b4-8813-c211": {
+              "key": "ab5d-2547-ab51-ff2a/e16a-4382-f18d-ca93",
+              "id": "b681-8092-2465-7ba0",
+              "name": "Furious Assault"
+            }
+          }
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-e181-0a30-f8f9-ba0a": {
+        "id": "9770-3a56-619e-f390",
+        "name": "Lieutenant",
+        "choices": {
+          "b2f1-24ee-34b7-861f": {
+            "803c-987b-8230-a268": {
+              "key": "1752-282a-4c3d-d4a5/d75b-4769-99e4-2c86/a620-6d2e-90e9-dff1",
+              "id": "4e9d-2724-513d-216a",
+              "name": "Bolt Pistol"
+            },
+            "9058-a5d4-c8a8-6513": {
+              "key": "1752-282a-4c3d-d4a5/d75b-4769-99e4-2c86/a620-6d2e-90e9-dff1",
+              "id": "f7a4-639f-3b01-b533",
+              "name": "Heavy Bolt Pistol"
+            }
+          },
+          "c548-d5e8-adff-97bf/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "4bfa-543a-d74d-1db6/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "c548-d5e8-adff-97bf/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "4bfa-543a-d74d-1db6/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "4bfa-543a-d74d-1db6/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "c548-d5e8-adff-97bf/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "4bfa-543a-d74d-1db6/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "c548-d5e8-adff-97bf/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "4bfa-543a-d74d-1db6/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "4bfa-543a-d74d-1db6/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "4bfa-543a-d74d-1db6/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "c548-d5e8-adff-97bf/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "4bfa-543a-d74d-1db6/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "c548-d5e8-adff-97bf/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "4bfa-543a-d74d-1db6/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "4bfa-543a-d74d-1db6/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "c548-d5e8-adff-97bf/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "4bfa-543a-d74d-1db6/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "c548-d5e8-adff-97bf/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "4bfa-543a-d74d-1db6/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "4bfa-543a-d74d-1db6/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "4bfa-543a-d74d-1db6/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "c548-d5e8-adff-97bf/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "4bfa-543a-d74d-1db6/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "4bfa-543a-d74d-1db6/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "4bfa-543a-d74d-1db6/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "c548-d5e8-adff-97bf/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "4bfa-543a-d74d-1db6/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "4bfa-543a-d74d-1db6/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "4bfa-543a-d74d-1db6/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "4bfa-543a-d74d-1db6/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "c548-d5e8-adff-97bf/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "4bfa-543a-d74d-1db6/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "4bfa-543a-d74d-1db6/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "4bfa-543a-d74d-1db6/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-e181-0a30-f8f9-ba0a": "a576-1af3-987a-399c"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-95e9-933c-b9d7-ecab": {
+        "id": "7916-7982-2101-bc03",
+        "name": "Lieutenant in Phobos Armour",
+        "choices": {
+          "c013-b3c4-077f-0fd9": {
+            "d835-8041-93bc-45cd": {
+              "key": "f7f4-83b6-0676-ae9d/5d53-8283-c91c-ae05",
+              "id": "95d9-76da-5e85-3447",
+              "name": "Special-issue Bolt Pistol"
+            },
+            "2852-4d55-9d92-09a3": {
+              "key": "f7f4-83b6-0676-ae9d/5d53-8283-c91c-ae05",
+              "id": "9dd4-a748-b648-c70e",
+              "name": "Master-crafted Bolt Carbine"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "6fe1-65a2-8b26-9704/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "6fe1-65a2-8b26-9704/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "6fe1-65a2-8b26-9704/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "6fe1-65a2-8b26-9704/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "6fe1-65a2-8b26-9704/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "6fe1-65a2-8b26-9704/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "6fe1-65a2-8b26-9704/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/49d8-5417-0279-522e": {
+            "e1d2-8016-020d-3e86": {
+              "key": "6fe1-65a2-8b26-9704/dbbc-e2b2-c784-25b3",
+              "id": "9aa9-68b5-3a31-098c",
+              "name": "Venator Omni-Auspex"
+            },
+            "fdb9-d2f9-4727-6b25": {
+              "key": "6fe1-65a2-8b26-9704/dbbc-e2b2-c784-25b3",
+              "id": "2b3c-517a-622d-58de",
+              "name": "Execute and Redeploy"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/4c85-67f0-c2ec-ba23": {
+            "0694-9667-55c7-87ad": {
+              "key": "6fe1-65a2-8b26-9704/bc21-460d-8525-5e4a",
+              "id": "8491-da48-8fe2-7914",
+              "name": "Seal of Shrouding"
+            },
+            "1bc6-8d70-d99d-b5d4": {
+              "key": "6fe1-65a2-8b26-9704/bc21-460d-8525-5e4a",
+              "id": "07e5-917e-6e81-036a",
+              "name": "Venator Omni-Auspex"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "6fe1-65a2-8b26-9704/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "6fe1-65a2-8b26-9704/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "6fe1-65a2-8b26-9704/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "7cff-3051-870d-1a96": {
+              "key": "6fe1-65a2-8b26-9704/bf5c-5901-49fc-c476",
+              "id": "9b11-0170-0a69-8d92",
+              "name": "Coronal Susurrant"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "6fe1-65a2-8b26-9704/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "6fe1-65a2-8b26-9704/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "6fe1-65a2-8b26-9704/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "6fe1-65a2-8b26-9704/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "6fe1-65a2-8b26-9704/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "6fe1-65a2-8b26-9704/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "6fe1-65a2-8b26-9704/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "6fe1-65a2-8b26-9704/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "6fe1-65a2-8b26-9704/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "cb49-2eed-72aa-3fa8/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "6fe1-65a2-8b26-9704/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "6fe1-65a2-8b26-9704/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "6fe1-65a2-8b26-9704/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-95e9-933c-b9d7-ecab": "90c-8a51-b001-2749"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-1e33-7b3b-016c-afea": {
+        "id": "ec05-3b74-7fd8-343",
+        "name": "Lieutenant with Combi-weapon",
+        "choices": {
+          "4295-74ed-4fd3-821e/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "7cc2-133e-bc3a-6d25/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "4295-74ed-4fd3-821e/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "7cc2-133e-bc3a-6d25/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "7cc2-133e-bc3a-6d25/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "4295-74ed-4fd3-821e/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "7cc2-133e-bc3a-6d25/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "4295-74ed-4fd3-821e/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "7cc2-133e-bc3a-6d25/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "7cc2-133e-bc3a-6d25/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "7cc2-133e-bc3a-6d25/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "4295-74ed-4fd3-821e/49d8-5417-0279-522e": {
+            "e1d2-8016-020d-3e86": {
+              "key": "7cc2-133e-bc3a-6d25/dbbc-e2b2-c784-25b3",
+              "id": "9aa9-68b5-3a31-098c",
+              "name": "Venator Omni-Auspex"
+            },
+            "fdb9-d2f9-4727-6b25": {
+              "key": "7cc2-133e-bc3a-6d25/dbbc-e2b2-c784-25b3",
+              "id": "2b3c-517a-622d-58de",
+              "name": "Execute and Redeploy"
+            }
+          },
+          "4295-74ed-4fd3-821e/4c85-67f0-c2ec-ba23": {
+            "0694-9667-55c7-87ad": {
+              "key": "7cc2-133e-bc3a-6d25/bc21-460d-8525-5e4a",
+              "id": "8491-da48-8fe2-7914",
+              "name": "Seal of Shrouding"
+            },
+            "1bc6-8d70-d99d-b5d4": {
+              "key": "7cc2-133e-bc3a-6d25/bc21-460d-8525-5e4a",
+              "id": "07e5-917e-6e81-036a",
+              "name": "Venator Omni-Auspex"
+            }
+          },
+          "4295-74ed-4fd3-821e/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "7cc2-133e-bc3a-6d25/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "4295-74ed-4fd3-821e/bd1b-9e8f-613a-48bb": {
+            "c135-54af-94ed-9ffb": {
+              "key": "7cc2-133e-bc3a-6d25/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "4295-74ed-4fd3-821e/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "7cc2-133e-bc3a-6d25/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "7cff-3051-870d-1a96": {
+              "key": "7cc2-133e-bc3a-6d25/bf5c-5901-49fc-c476",
+              "id": "9b11-0170-0a69-8d92",
+              "name": "Coronal Susurrant"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "7cc2-133e-bc3a-6d25/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "7cc2-133e-bc3a-6d25/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "4295-74ed-4fd3-821e/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "7cc2-133e-bc3a-6d25/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "7cc2-133e-bc3a-6d25/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "7cc2-133e-bc3a-6d25/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "4295-74ed-4fd3-821e/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "7cc2-133e-bc3a-6d25/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "7cc2-133e-bc3a-6d25/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "7cc2-133e-bc3a-6d25/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "7cc2-133e-bc3a-6d25/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "4295-74ed-4fd3-821e/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "7cc2-133e-bc3a-6d25/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "7cc2-133e-bc3a-6d25/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "7cc2-133e-bc3a-6d25/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        }
+      },
+      "profile-unit-a603-5039-f08d-e841-5302-e1f9-0338-76f9": {
+        "id": "984d-c25b-86dd-9970",
+        "name": "Marneus Calgar",
+        "toggles": {
+          "profile-warlord-a603-5039-f08d-e841-5302-e1f9-0338-76f9": "fa32-472c-cccb-7a4b"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-10ea-b970-b376-4ab2": {
+        "id": "da66-4d12-2b43-4360",
+        "name": "Outrider Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-af06-c419-96da-a136": {
+        "id": "fcb6-80ca-22a-4771",
+        "name": "Redemptor Dreadnought",
+        "choices": {
+          "6119-c2ba-05d0-017b": {
+            "c8c0-b4fa-a256-b0fe": {
+              "key": "4fa9-d65f-bf56-ef64/7e68-ae54-ca48-6cbe",
+              "id": "f6e7-7f12-0429-052c",
+              "name": "Fragstorm Grenade Launchers"
+            },
+            "369b-212c-9ce1-8175": {
+              "key": "4fa9-d65f-bf56-ef64/7e68-ae54-ca48-6cbe",
+              "id": "dabd-8e3f-970d-e305",
+              "name": "Storm Bolters"
+            }
+          },
+          "c1fe-9420-48b6-4172": {
+            "fdcc-f273-dfcc-a130": {
+              "key": "4fa9-d65f-bf56-ef64/d49a-8e4b-aa93-d8be",
+              "id": "6c33-c5c-bef1-3bc9",
+              "name": "Heavy Flamer"
+            },
+            "381a-d4b9-d848-6ae4": {
+              "key": "4fa9-d65f-bf56-ef64/d49a-8e4b-aa93-d8be",
+              "id": "c2f-4418-5c67-8e36",
+              "name": "Onslaught Gatling Cannon"
+            }
+          }
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-9217-5b4c-f073-c93c": {
+        "id": "72c7-e95f-cade-27d7",
+        "name": "Reiver Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-a2f3-1f23-3908-8dc5": {
+        "id": "b6f6-3b6d-2508-7c12",
+        "name": "Repulsor",
+        "choices": {
+          "546d-4ccd-9233-7555": {
+            "0da5-01b3-0bfc-c781": {
+              "key": "6bde-c589-104e-1461/4db0-4d2e-ccd9-fb48",
+              "id": "4d2c-f955-6a65-c1dd",
+              "name": "Heavy Onslaught Gatling Cannon"
+            },
+            "394e-38c2-2e8c-244b": {
+              "key": "6bde-c589-104e-1461/4db0-4d2e-ccd9-fb48",
+              "id": "de5d-ac7-8e5c-b882",
+              "name": "Las-talon"
+            }
+          },
+          "5fc4-63b3-17fe-a5ea": {
+            "1035-1dfa-f625-1abb": {
+              "key": "6bde-c589-104e-1461/2392-34a9-9d0e-e323",
+              "id": "61fc-e36a-4d10-96b1",
+              "name": "Twin Heavy Bolter"
+            },
+            "336a-e9e6-c756-0bdf": {
+              "key": "6bde-c589-104e-1461/2392-34a9-9d0e-e323",
+              "id": "002f-1fde-ad1b-d635",
+              "name": "Twin Lascannon"
+            }
+          }
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-83c8-5e8e-088f-9244": {
+        "id": "6d49-e23e-978b-7160",
+        "name": "Repulsor Executioner"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-afd9-0b42-47ba-c215": {
+        "id": "efc9-2aff-c5b-6790",
+        "name": "Rhino"
+      },
+      "profile-unit-a603-5039-f08d-e841-8407-dd1b-58f2-5426": {
+        "id": "49fb-cb39-f830-9ee",
+        "name": "Roboute Guilliman",
+        "toggles": {
+          "profile-warlord-a603-5039-f08d-e841-8407-dd1b-58f2-5426": "fec9-14d-9e5f-2a20"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-3542-4062-da8c-5f42": {
+        "id": "3c0a-10a9-8f84-26a3",
+        "name": "Scout Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-0b27-7a0f-d7e9-1d38": {
+        "id": "bc4e-8331-8179-255b",
+        "name": "Sternguard Veteran Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-94eb-0c72-b021-85fd": {
+        "id": "5cba-2616-bbb4-771d",
+        "name": "Storm Speeder Hailstrike"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-6ebd-eb7f-4bcd-8fba": {
+        "id": "44fa-abe-61ee-c8ab",
+        "name": "Storm Speeder Hammerstrike"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-8044-bed5-56ca-7d30": {
+        "id": "e1c7-4bd8-ebad-6154",
+        "name": "Storm Speeder Thunderstrike"
+      },
+      "profile-unit-2f78-9f73-b44f-3807-7029-01d6-4d91-e148": {
+        "id": "8960-af71-0dcb-747e",
+        "name": "Suboden Khan",
+        "toggles": {
+          "profile-warlord-2f78-9f73-b44f-3807-7029-01d6-4d91-e148": "be18-cb7c-10b7-7502"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-97b4-225c-2df8-39a5": {
+        "id": "c7ef-84b1-fdf5-c5a8",
+        "name": "Techmarine",
+        "choices": {
+          "ad49-1a98-f6c0-dce5/313d-fbf4-76fa-1c0e": {
+            "a353-795d-f8a1-e18d": {
+              "key": "a975-ccc2-5f0b-377/e16a-4382-f18d-ca93",
+              "id": "342a-2485-9ec0-b0a3",
+              "name": "Imperium's Sword"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/5533-0070-6c3d-084c": {
+            "01a8-db6a-ecdd-f4b6": {
+              "key": "a975-ccc2-5f0b-377/d4c6-a853-4bda-7efd",
+              "id": "2b11-ea2b-4da9-de92",
+              "name": "Castellum Omnivox"
+            },
+            "c082-cdc6-f375-f92e": {
+              "key": "a975-ccc2-5f0b-377/d4c6-a853-4bda-7efd",
+              "id": "6bd0-b2f7-0414-3536",
+              "name": "Defensive Mastery"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/d24b-9dd1-3f01-898e": {
+            "4310-80a8-40b1-85be": {
+              "key": "a975-ccc2-5f0b-377/062b-b58a-a464-c718",
+              "id": "7ff2-2874-cfe2-0ccb",
+              "name": "Honour of Vigilance"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/064c-774e-337b-a4b5": {
+            "fcca-810c-7b6c-9fbe": {
+              "key": "a975-ccc2-5f0b-377/dff5-fd4c-749d-e42",
+              "id": "3635-6f41-c807-71c2",
+              "name": "Standard of the Emperor Ascendant"
+            },
+            "a157-c0e0-9d59-3029": {
+              "key": "a975-ccc2-5f0b-377/dff5-fd4c-749d-e42",
+              "id": "899b-69cc-2e8f-f8ea",
+              "name": "Laurels of Triumph"
+            },
+            "8e72-dbc5-9925-eb62": {
+              "key": "a975-ccc2-5f0b-377/dff5-fd4c-749d-e42",
+              "id": "e57e-d55a-be75-2205",
+              "name": "Artificer Armour"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/13b2-1c23-67c1-1f3b": {
+            "384b-7f0d-f1bb-6c64": {
+              "key": "a975-ccc2-5f0b-377/2dbd-da3d-a555-1d44",
+              "id": "7d86-a10b-2650-b2e1",
+              "name": "Laurels of Vigilance"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/bd1b-9e8f-613a-48bb": {
+            "097c-52d2-0ae9-afe8": {
+              "key": "a975-ccc2-5f0b-377/db83-8ee5-58bf-2ad0",
+              "id": "b707-d469-d556-9014",
+              "name": "Martial Paragon"
+            },
+            "c135-54af-94ed-9ffb": {
+              "key": "a975-ccc2-5f0b-377/db83-8ee5-58bf-2ad0",
+              "id": "ea3c-4303-6f8f-a872",
+              "name": "Spearpoint War Leader"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/a0fb-7bdf-2bf5-5e0e": {
+            "1d3f-a834-a0c7-fca0": {
+              "key": "a975-ccc2-5f0b-377/488a-7727-65fb-87f1",
+              "id": "adc3-dd2a-9803-f808",
+              "name": "Tempered in Battle (Aura)"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/8a84-b4ca-8217-377c": {
+            "0392-3cdc-9d89-0390": {
+              "key": "a975-ccc2-5f0b-377/bf5c-5901-49fc-c476",
+              "id": "8fff-d705-4319-7795",
+              "name": "Blackwing Shroud"
+            },
+            "5284-c817-e497-6f8d": {
+              "key": "a975-ccc2-5f0b-377/bf5c-5901-49fc-c476",
+              "id": "74e0-91bc-3fcb-788f",
+              "name": "Umbral Raptor"
+            },
+            "0cdc-cf6a-ae16-ff77": {
+              "key": "a975-ccc2-5f0b-377/bf5c-5901-49fc-c476",
+              "id": "f610-ca2f-9f8c-099c",
+              "name": "Hunter's Instincts"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/598d-14fc-6f78-611d": {
+            "6f95-dcbf-d5b4-d69d": {
+              "key": "a975-ccc2-5f0b-377/a6f0-5d11-d90f-68b6",
+              "id": "016b-1901-875e-6dd7",
+              "name": "Adamantine Mantle"
+            },
+            "6165-9762-25aa-adc0": {
+              "key": "a975-ccc2-5f0b-377/a6f0-5d11-d90f-68b6",
+              "id": "af65-6576-7e00-b482",
+              "name": "Forged in Battle"
+            },
+            "54ba-5a8b-453b-a5f1": {
+              "key": "a975-ccc2-5f0b-377/a6f0-5d11-d90f-68b6",
+              "id": "93f5-604f-2378-4afe",
+              "name": "Immolator"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/4ee7-1e3a-5b22-2443": {
+            "2c3b-78a7-5e3e-179f": {
+              "key": "a975-ccc2-5f0b-377/0685-ad9f-e930-9daf",
+              "id": "03fe-b253-1408-b008",
+              "name": "Armour of Antoninus"
+            },
+            "4e26-11de-0c5e-7587": {
+              "key": "a975-ccc2-5f0b-377/0685-ad9f-e930-9daf",
+              "id": "9757-8da6-e934-619c",
+              "name": "Oath of Macragge"
+            },
+            "0a41-deeb-db4f-80da": {
+              "key": "a975-ccc2-5f0b-377/0685-ad9f-e930-9daf",
+              "id": "f676-594e-f3c4-65fc",
+              "name": "Student of the Codex"
+            },
+            "0248-82e7-2c47-46ff": {
+              "key": "a975-ccc2-5f0b-377/0685-ad9f-e930-9daf",
+              "id": "0f6d-3963-47b6-4f79",
+              "name": "Veteran of Behemoth"
+            }
+          },
+          "ad49-1a98-f6c0-dce5/6a53-8d21-2e8b-1b58": {
+            "c85e-22d4-df45-8f88": {
+              "key": "a975-ccc2-5f0b-377/7e70-7802-8b9c-8bc6",
+              "id": "7546-3996-6dcc-4248",
+              "name": "Hunter's Eye"
+            },
+            "836d-8c9a-9d0d-7851": {
+              "key": "a975-ccc2-5f0b-377/7e70-7802-8b9c-8bc6",
+              "id": "943e-6ac8-df09-16e8",
+              "name": "Spearpoint Paragon"
+            },
+            "55af-c2d2-c2ab-7711": {
+              "key": "a975-ccc2-5f0b-377/7e70-7802-8b9c-8bc6",
+              "id": "45fb-0afc-f558-c3c5",
+              "name": "Stormseer's Wisdom"
+            }
+          }
+        },
+        "toggles": {
+          "profile-warlord-e0af-67df-9d63-8fb8-97b4-225c-2df8-39a5": "2ee8-e3fb-9504-4ce2"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-42d3-08a5-f800-6ed7": {
+        "id": "adb8-cae3-4bd2-e08e",
+        "name": "Terminator Assault Squad"
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-4795-7030-3b2a-c77b": {
+        "id": "13d8-1933-472c-80ed",
+        "name": "Terminator Squad"
+      },
+      "profile-unit-23d7-91c9-24dc-263a-8a31-e7b2-2494-43c2": {
+        "id": "109d-48c6-54ac-eb81",
+        "name": "Tor Garadon",
+        "toggles": {
+          "profile-warlord-23d7-91c9-24dc-263a-8a31-e7b2-2494-43c2": "3a51-3c8f-f135-4372"
+        }
+      },
+      "profile-unit-e0af-67df-9d63-8fb8-5e6c-e2c7-32b9-c862": {
+        "id": "3f75-2c71-6fdb-6fc3",
+        "name": "Vanguard Veteran Squad with Jump Packs"
+      },
+      "profile-unit-a603-5039-f08d-e841-89ea-904e-e75d-ae54": {
+        "id": "7f97-8d4d-477d-3b35",
+        "name": "Victrix Honour Guard"
+      },
+      "profile-unit-4eef-e313-1eea-94a6-1a71-5719-73c5-aab1": {
+        "id": "e1d6-3316-2209-dc77",
+        "name": "Vulkan He'stan",
+        "toggles": {
+          "profile-warlord-4eef-e313-1eea-94a6-1a71-5719-73c5-aab1": "30af-5b98-54a-b316"
+        }
+      },
+      "profile-unit-a603-5039-f08d-e841-23e0-c507-13d9-a29b": {
+        "id": "67b4-7b11-a48e-1791",
+        "name": "Wardens of Ultramar"
+      }
+    }
+  }
+}
