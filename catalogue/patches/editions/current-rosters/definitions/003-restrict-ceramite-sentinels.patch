@@ -1,0 +1,18 @@
+diff --git a/definitions/Imperium - Space Marines.json b/definitions/Imperium - Space Marines.json
+--- a/definitions/Imperium - Space Marines.json
++++ b/definitions/Imperium - Space Marines.json
+@@ -77818,6 +77818,14 @@
+               {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+               {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+             ],
++            "modifiers": [
++              {
++                "field": "hidden",
++                "type": "set",
++                "value": true,
++                "conditions": [{"childId": "5d6e-fd3-330a-11dd", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "notInstanceOf", "value": 1}]
++              }
++            ],
+             "rules": [
+               {
+                 "name": "Adaptive Defence",

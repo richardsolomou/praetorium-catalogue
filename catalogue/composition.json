@@ -1,0 +1,245 @@
+{
+  "format": "praetorium.catalogue-composition.v1",
+  "overlays": [],
+  "editions": [
+    {
+      "edition": {
+        "id": "custodes-11e",
+        "name": "Custodes codex · 17 Oct 2026",
+        "slug": "custodes-codex-2026-10-17",
+        "status": "preview",
+        "default": false,
+        "catalogueIds": ["1f19-6509-d906-ca10"],
+        "releases": [
+          {
+            "at": 1791660480000,
+            "status": "preview"
+          }
+        ]
+      },
+      "sources": {},
+      "overlays": [
+        {
+          "source": "definitions",
+          "repository": "richardsolomou/wh40k-11e",
+          "branch": "feat/custodes-11e-preview",
+          "revision": "ac5d1848fe0b60158e26518f63b1279aaf47dd96",
+          "license": null,
+          "attribution": "Unofficial Custodes codex preview transcribed from publisher previews and scanned pages; community sheet prices",
+          "files": ["Imperium - Adeptus Custodes.json"]
+        },
+        {
+          "source": "points",
+          "repository": "richardsolomou/wh40k-11e",
+          "branch": "feat/custodes-11e-preview",
+          "revision": "ac5d1848fe0b60158e26518f63b1279aaf47dd96",
+          "license": null,
+          "attribution": "Unofficial Custodes codex preview transcribed from publisher previews and scanned pages; community sheet prices",
+          "path": "data",
+          "files": ["data/adeptus-custodes.yaml"]
+        },
+        {
+          "source": "datacards",
+          "repository": "richardsolomou/wh40k-11e",
+          "branch": "feat/custodes-11e-preview",
+          "revision": "ac5d1848fe0b60158e26518f63b1279aaf47dd96",
+          "license": null,
+          "attribution": "Unofficial Custodes codex preview transcribed from publisher previews and scanned pages; community sheet prices",
+          "path": "11th/gdc",
+          "files": ["11th/gdc/adeptuscustodes.json"]
+        }
+      ]
+    },
+    {
+      "edition": {
+        "id": "legacy-profiles",
+        "name": "MFM 1.5 · 2 Oct 2026",
+        "slug": "mfm-1-5-2026-10-02",
+        "status": "retired",
+        "default": false,
+        "catalogueIds": ["470a-6daa-9014-12df", "4eef-e313-1eea-94a6", "a603-5039-f08d-e841"],
+        "releases": [
+          {
+            "at": 1791676800000,
+            "status": "retired"
+          }
+        ],
+        "description": "Rules snapshot from 2 Oct 2026. MFM 1.5 was released on 30 Sep 2026."
+      },
+      "snapshot": {
+        "format": "praetorium.catalogue-pointer.v1",
+        "id": "233a859e385c01e9a9771780b835529c5cabe37845f359fee06c092f589aa881",
+        "archiveSha256": "f5e47c0de9ad46471fc3df72a7134faa0ab4bb20d50bae569e28cf0fb12fa738"
+      },
+      "sources": {},
+      "overlays": []
+    },
+    {
+      "edition": {
+        "id": "legacy-rosters",
+        "name": "MFM 1.4 · 30 Sep 2026",
+        "slug": "mfm-1-4-2026-09-30",
+        "status": "retired",
+        "default": false,
+        "catalogueIds": ["2261-79a5-19d9-1668", "470a-6daa-9014-12df", "4ef9-15ce-e3e6-36de"],
+        "releases": [
+          {
+            "at": 1791676800000,
+            "status": "retired"
+          }
+        ],
+        "description": "Rules snapshot from 30 Sep 2026. MFM 1.4 was released on 2 Sep 2026."
+      },
+      "snapshot": {
+        "format": "praetorium.catalogue-pointer.v1",
+        "id": "3e2a091c92b1687f6b3031e1abf7a87dae12733a9dc8e58468c8d9a52b75d321",
+        "archiveSha256": "7f2fbc78ba10ceb3c1f5e3d78d169ef4d688f6109bc0956040ca8bfc0fbb3c58"
+      },
+      "sources": {},
+      "overlays": []
+    },
+    {
+      "edition": {
+        "id": "legacy-marine-old",
+        "name": "MFM 1.4 · 2 Sep 2026",
+        "slug": "mfm-1-4-2026-09-02",
+        "status": "retired",
+        "default": false,
+        "catalogueIds": ["470a-6daa-9014-12df"],
+        "releases": [
+          {
+            "at": 1791676800000,
+            "status": "retired"
+          }
+        ]
+      },
+      "snapshot": {
+        "format": "praetorium.catalogue-pointer.v1",
+        "id": "e7d3e7813209410111042f5081399452e19e17917ce1f8c8f1f6bbfc741254cc",
+        "archiveSha256": "fa39117d51470372cffaf6e57f0366cdc8443ce35a54a0cd0dfabd339bfe5ac2"
+      },
+      "sources": {},
+      "overlays": []
+    },
+    {
+      "edition": {
+        "id": "current-rosters",
+        "name": "Space Marines codex · 3 Oct 2026",
+        "slug": "space-marines-codex-2026-10-03",
+        "status": "released",
+        "default": false,
+        "catalogueIds": ["2261-79a5-19d9-1668", "470a-6daa-9014-12df", "4ef9-15ce-e3e6-36de", "e0af-67df-9d63-8fb7"],
+        "releases": [
+          {
+            "at": 1791676800000,
+            "status": "released"
+          }
+        ]
+      },
+      "sources": {
+        "definitions": {
+          "repository": "richardsolomou/wh40k-11e",
+          "branch": "main",
+          "license": null,
+          "description": "Community catalogues for Warhammer 40,000 11th edition. JSON, one file per faction.",
+          "revision": "3988a8bdd210f9d31ea5b6782d0016688ccb6815",
+          "attribution": "Community catalogue data from BSData, maintained in the Praetorium fork."
+        },
+        "points": {
+          "repository": "BSData/wh40k-11e-mfm",
+          "branch": "main",
+          "path": "data",
+          "license": "MIT",
+          "licenseUrl": "https://github.com/BSData/wh40k-11e-mfm/blob/main/LICENSE",
+          "attribution": "Copyright 2026 BSData",
+          "description": "Munitorum Field Manual 1.5 prices for units, detachments, enhancements, and upgrades.",
+          "revision": "8e0e635674018969fdcfaa64e83d4153ebefad70"
+        },
+        "datacards": {
+          "repository": "game-datacards/datasources",
+          "branch": "main",
+          "path": "11th/gdc",
+          "license": null,
+          "attribution": "Data provided by game-datacards",
+          "description": "Game Datacards data for Warhammer 40,000 11th edition, including factions, core rules, missions, and layouts.",
+          "revision": "9c0762c8311db122c0faa9a3a09ef891c3c2d782"
+        }
+      },
+      "overlays": [
+        {
+          "source": "definitions",
+          "repository": "richardsolomou/wh40k-11e",
+          "branch": "Space-Marine-Codex",
+          "license": null,
+          "description": "Community catalogues for Warhammer 40,000 11th edition. JSON, one file per faction.",
+          "revision": "87f63a40d19a3cb684731b08b04e92384b9770ed",
+          "files": [
+            "Imperium - Black Templars.json",
+            "Imperium - Blood Angels.json",
+            "Imperium - Dark Angels.json",
+            "Imperium - Deathwatch.json",
+            "Imperium - Imperial Fists.json",
+            "Imperium - Iron Hands.json",
+            "Imperium - Raven Guard.json",
+            "Imperium - Salamanders.json",
+            "Imperium - Space Marines.json",
+            "Imperium - Space Wolves.json",
+            "Imperium - Ultramarines.json",
+            "Imperium - White Scars.json",
+            "Library - Astartes Heresy Legends.json",
+            "Warhammer 40,000.json"
+          ],
+          "attribution": "Community catalogue data from BSData, maintained in the Praetorium fork."
+        }
+      ]
+    },
+    {
+      "edition": {
+        "id": "marine-main",
+        "name": "Space Marines codex · 12 Oct 2026",
+        "slug": "space-marines-codex-2026-10-12",
+        "status": "released",
+        "default": false,
+        "catalogueIds": ["2261-79a5-19d9-1668", "470a-6daa-9014-12df", "4ef9-15ce-e3e6-36de", "e0af-67df-9d63-8fb7"],
+        "releases": [
+          {
+            "at": 1791763200000,
+            "status": "released"
+          }
+        ],
+        "description": "Rules snapshot from 12 Oct 2026, including the BSData main merge and corrections. The Space Marines codex was released on 3 Oct 2026."
+      },
+      "sources": {
+        "definitions": {
+          "repository": "richardsolomou/wh40k-11e",
+          "branch": "main",
+          "revision": "1b1ddfd2d064a9b5e7dbed7a63a2a4dd3aedfa29",
+          "license": null,
+          "attribution": "Community catalogue data from BSData, maintained in the Praetorium fork.",
+          "description": "Community catalogues for Warhammer 40,000 11th edition. JSON, one file per faction."
+        }
+      },
+      "overlays": []
+    },
+    {
+      "edition": {
+        "id": "marine-2026-10-13",
+        "slug": "space-marines-codex-2026-10-13",
+        "name": "Space Marines codex · 13 Oct 2026",
+        "description": "Rules snapshot from 13 Oct 2026, including the Land Raider Redeemer ability correction. The Space Marines codex was released on 3 Oct 2026.",
+        "status": "released",
+        "default": true,
+        "catalogueIds": ["2261-79a5-19d9-1668", "470a-6daa-9014-12df", "4ef9-15ce-e3e6-36de", "e0af-67df-9d63-8fb7"],
+        "releases": [
+          {
+            "at": 1791849600000,
+            "status": "released"
+          }
+        ]
+      },
+      "base": true,
+      "sources": {},
+      "overlays": []
+    }
+  ]
+}

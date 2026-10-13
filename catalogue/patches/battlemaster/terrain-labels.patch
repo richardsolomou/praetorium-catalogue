@@ -1,0 +1,61 @@
+diff --git a/battlemaster/terrain-labels.json b/battlemaster/terrain-labels.json
+new file mode 100644
+index 0000000..6fbc792
+--- /dev/null
++++ b/battlemaster/terrain-labels.json
+@@ -0,0 +1,55 @@
++{
++  "format": "praetorium.terrain-label-corrections.v1",
++  "battlemasterRevision": "4ac21244c7bde9a3be8ee2faa6dc44d639606c32788570e3b244d93291997a82",
++  "datacardsRevision": "9c0762c8311db122c0faa9a3a09ef891c3c2d782",
++  "corrections": [
++    {
++      "layoutId": "terrain-43dc33cf-49d5-44a9-951c-e4f29a24bf2a",
++      "layoutKey": "26a66949d51a0138",
++      "datacardsLayoutId": "95b63f18-2696-4d37-96a5-6ed2aedf3937",
++      "areaName": "BigRect CD L 02 mirror",
++      "from": "CD",
++      "to": "EF"
++    },
++    {
++      "layoutId": "terrain-857570c7-b155-40e9-8f89-d83cdf8e18e2",
++      "layoutKey": "d2db2dab29193b3f",
++      "datacardsLayoutId": "019d6708-3fd8-4140-9ed2-ad4b46121d56",
++      "areaName": "BigRect EF L 01",
++      "from": "EF",
++      "to": "CD"
++    },
++    {
++      "layoutId": "terrain-cc6c1e51-b260-4eb0-a757-a5acdb22acce",
++      "layoutKey": "b111d21eb01a35b9",
++      "datacardsLayoutId": "3878f6df-cb4e-45b6-ae35-ef02f8180a09",
++      "areaName": "BigRect CD L 02 Flip",
++      "from": "CD",
++      "to": "EF"
++    },
++    {
++      "layoutId": "terrain-0a0f4d93-d459-48dc-80c0-a0f29f57095f",
++      "layoutKey": "7cbd3dd3c2b4d7ff",
++      "datacardsLayoutId": "f153cefe-10f7-4c7e-b898-0ea19fa666d7",
++      "areaName": "BigRect EF GH mirror",
++      "from": "EF",
++      "to": "CD"
++    },
++    {
++      "layoutId": "terrain-430a7b03-1ad3-48b3-8322-dd5610ed8595",
++      "layoutKey": "ddc2db99bebec4a8",
++      "datacardsLayoutId": "a5d62d8d-fde7-4860-b172-912cb266234f",
++      "areaName": "BigRect GH L 01",
++      "from": "GH",
++      "to": "EF"
++    },
++    {
++      "layoutId": "terrain-f794f26c-ea51-4dd7-b721-4f4a791b5ac1",
++      "layoutKey": "59f103d99df11ea1",
++      "datacardsLayoutId": "82a248ac-ced9-4be9-af81-eb406d3ad7c0",
++      "areaName": "BigRect CD L",
++      "from": "CD",
++      "to": "EF"
++    }
++  ]
++}

@@ -1,0 +1,147 @@
+diff --git a/definitions/Imperium - Adeptus Custodes.json b/definitions/Imperium - Adeptus Custodes.json
+--- a/definitions/Imperium - Adeptus Custodes.json
++++ b/definitions/Imperium - Adeptus Custodes.json
+@@ -3466,6 +3466,18 @@
+                 "$text": "If this model is in your army, it must be your WARLORD"
+               }
+             ]
++          },
++          {
++            "id": "preview-attachment-7d7c-c212-47a3-38e4",
++            "name": "Leader",
++            "typeName": "Abilities",
++            "characteristics": [
++              {
++                "name": "Description",
++                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
++                "$text": "This model can be attached to the following units:\n- Custodian Guard Sodality\n- Sentinel Guard Sodality\n- Custodian Wardens\n- Allarus Custodians\n- Aquilon Terminators with Solarite Power Gauntlets\n- Aquilon Terminators with Solarite Power Talons"
++              }
++            ]
+           }
+         ],
+         "infoLinks": [
+@@ -3889,6 +3901,18 @@
+                 "name": "Description",
+                 "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
+                 "$text": "In your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\"."
++              }
++            ]
++          },
++          {
++            "id": "preview-attachment-b61c-b815-65c0-b1cc",
++            "name": "Leader",
++            "typeName": "Abilities",
++            "characteristics": [
++              {
++                "name": "Description",
++                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
++                "$text": "This model can be attached to the following units:\n- Custodian Guard Sodality\n- Sentinel Guard Sodality\n- Custodian Wardens"
+               }
+             ]
+           }
+@@ -4877,6 +4901,18 @@
+                 "$text": "In your Movement phase, if this unit is unengaged and has not been selected to move this phase, you can use this ability. If you do, place this unit in strategic reserves and this unit must make an ingress move this phase."
+               }
+             ]
++          },
++          {
++            "id": "preview-attachment-6319-eeba-b717-bd86",
++            "name": "Leader",
++            "typeName": "Abilities",
++            "characteristics": [
++              {
++                "name": "Description",
++                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
++                "$text": "This model can be attached to the following units:\n- Allarus Custodians\n- Aquilon Terminators with Solarite Power Gauntlets\n- Aquilon Terminators with Solarite Power Talons"
++              }
++            ]
+           }
+         ],
+         "infoLinks": [
+@@ -5618,6 +5654,18 @@
+                 "$text": "At the end of the Fight phase, if this unit was eligible to fight this phase:\n- If this unit is unengaged, this unit can make a normal move.\n- Or: If this unit is engaged, this unit can make a fall-back move."
+               }
+             ]
++          },
++          {
++            "id": "preview-attachment-58fa-4a25-a5af-1144",
++            "name": "Leader",
++            "typeName": "Abilities",
++            "characteristics": [
++              {
++                "name": "Description",
++                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
++                "$text": "This model can be attached to the following units:\n- Vertus Praetors\n- Gyrfalcon Jetbike Sodality"
++              }
++            ]
+           }
+         ],
+         "infoLinks": [
+@@ -5669,6 +5717,12 @@
+                 ]
+               }
+             ]
++          },
++          {
++            "id": "preview-bike-captain-leader",
++            "name": "Leader",
++            "type": "rule",
++            "targetId": "b4dd-3e1f-41cb-218f"
+           }
+         ],
+         "selectionEntries": [
+@@ -6249,6 +6303,18 @@
+                 "name": "Description",
+                 "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
+                 "$text": "At the start of the first battle round, select one enemy unit to be this model's mark.\n- This model's attacks that target this model's mark have +1 to wound rolls\n- Each time this model's mark is destroyed, select one enemy unit to be this model's mark."
++              }
++            ]
++          },
++          {
++            "id": "preview-attachment-48b7-e713-d5b1-f11c",
++            "name": "Leader",
++            "typeName": "Abilities",
++            "characteristics": [
++              {
++                "name": "Description",
++                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
++                "$text": "This model can be attached to the following units:\n- Custodian Guard Sodality\n- Sentinel Guard Sodality\n- Custodian Wardens"
+               }
+             ]
+           }
+@@ -16692,6 +16758,18 @@
+                 "$text": "When an enemy unit (excluding MONSTER/VEHICLE units) engaged with this unit makes a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
+               }
+             ]
++          },
++          {
++            "id": "preview-attachment-7099-71b-56e8-7191",
++            "name": "Support",
++            "typeName": "Abilities",
++            "characteristics": [
++              {
++                "name": "Description",
++                "typeId": "pc-5dbe8ef0d901e8bf7a11e6ae",
++                "$text": "This model can be attached to the following units:\n- Prosecutor Squad\n- Vigilator Squad\n- Witchseeker Squad"
++              }
++            ]
+           }
+         ],
+         "infoLinks": [
+@@ -17270,6 +17348,16 @@
+             "name": "pts",
+             "typeId": "51b2-306e-1021-d207",
+             "value": 55
++          }
++        ],
++        "constraints": [
++          {
++            "id": "preview-knight-centura-support-required",
++            "type": "min",
++            "value": 1,
++            "field": "associations",
++            "scope": "self",
++            "message": "{this} must be attached to a Bodyguard unit."
+           }
+         ]
+       },
