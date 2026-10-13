@@ -22,9 +22,9 @@ Dispatch `catalogue.yml` with `publish` enabled to publish a verified candidate.
 
 GitHub Releases hold `snapshot.zip`, `runtime.zip`, `manifest.json`, `release.json` and `revocations.json`. R2 mirrors the source archive, runtime archive and manifests, and stores a shared pool of gzip-compressed source objects keyed by the SHA256 of their uncompressed content. Snapshot format 4 stores identical content once while retaining every original logical path. Runtime artifacts remain a separate distribution profile from the source/audit snapshot; public offline assets are built and published by the application.
 
-The publisher verifies each GitHub asset and each R2 object after upload. It refuses mismatched existing artifacts, can resume a matching draft, and publishes discovery only after both mirrors verify. Applications pin exact hashes, download only missing source objects when a local pool exists, and otherwise use a verified source archive. Transport failures may fall back to the GitHub archive; integrity failures stop installation. Installation stages complete output before replacing it and preserves the previous snapshot on failure.
+The publisher verifies each GitHub asset and each R2 object after upload; a source object already in R2 must match the local file’s MD5 ETag and size. It refuses mismatched existing artifacts, can resume a matching draft, and publishes discovery only after both mirrors verify. Applications pin exact hashes, download only missing source objects when a local pool exists, and otherwise use a verified source archive. Transport failures may fall back to the GitHub archive; integrity failures stop installation. Installation stages complete output before replacing it and preserves the previous snapshot on failure.
 
-The publisher requires `CATALOGUE_R2_ACCESS_KEY_ID`, `CATALOGUE_R2_SECRET_ACCESS_KEY` and the `CLOUDFLARE_ACCOUNT_ID` repository variable. GitHub’s workflow token publishes release assets; R2 credentials are never stored in Git.
+The publisher requires boto3, which the workflow installs, `CATALOGUE_R2_ACCESS_KEY_ID`, `CATALOGUE_R2_SECRET_ACCESS_KEY` and the `CLOUDFLARE_ACCOUNT_ID` repository variable. GitHub’s workflow token publishes release assets; R2 credentials are never stored in Git.
 
 ## Withdrawal
 

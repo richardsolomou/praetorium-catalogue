@@ -107,6 +107,10 @@ jobs:
           name: catalogue-release
           path: build/release/*.json
           retention-days: 14
+      - uses: actions/setup-python@v7
+        if: github.event_name == 'workflow_dispatch' && inputs.publish
+        with:
+          python-version: '3.13'
       - name: Publish and verify both mirrors
         if: github.event_name == 'workflow_dispatch' && inputs.publish
         env:
@@ -114,4 +118,6 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.CATALOGUE_R2_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: us-east-1
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-        run: python3 scripts/publish.py ${{ inputs.activate && '--activate' || '' }}
+        run: |
+          python3 -m pip install --quiet boto3==1.43.113
+          python3 scripts/publish.py ${{ inputs.activate && '--activate' || '' }}
