@@ -1,0 +1,100 @@
+name: Catalogue release
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish the verified release to GitHub and R2
+        type: boolean
+        default: false
+      activate:
+        description: Advance current.json after compatible app deployment
+        type: boolean
+        default: false
+
+concurrency:
+  group: catalogue-release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  catalogue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      CATALOGUE_AUTHORING_REVISION: ${{ github.sha }}
+      CATALOGUE_AUTHORING_DIR: ${{ github.workspace }}
+      CATALOGUE_DIR: ${{ github.workspace }}/build/catalogue-data
+      CATALOGUE_SNAPSHOT_FILE: ${{ github.workspace }}/build/release/snapshot.zip
+      CATALOGUE_SNAPSHOT_POINTER_FILE: ${{ github.workspace }}/build/release/release.json
+      CATALOGUE_OBJECTS_DIR: ${{ github.workspace }}/build/objects
+      CATALOGUE_BASE_URL: https://s3.praetorium.gg/catalogue
+    steps:
+      - uses: actions/checkout@v7
+      - name: Read the compiler pin
+        id: compiler
+        run: |
+          node scripts/check.mjs
+          echo "repository=$(jq -r .repository compiler.json)" >> "$GITHUB_OUTPUT"
+          echo "revision=$(jq -r .revision compiler.json)" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v7
+        with:
+          repository: ${{ steps.compiler.outputs.repository }}
+          ref: ${{ steps.compiler.outputs.revision }}
+          path: compiler
+      - uses: pnpm/action-setup@v6
+        with:
+          package_json_file: compiler/package.json
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: compiler/package.json
+          cache: pnpm
+          cache-dependency-path: compiler/pnpm-lock.yaml
+      - name: Install the pinned compiler
+        working-directory: compiler
+        run: pnpm install --frozen-lockfile
+      - name: Verify authoring and materialize the sources
+        working-directory: compiler
+        run: |
+          python3 -B -m unittest discover -s ../scripts
+          pnpm catalogue:check
+          pnpm exec vitest run scripts/lib/cataloguePatches.integration.test.ts scripts/lib/catalogueComposition.integration.test.ts scripts/lib/catalogueMaterialize.integration.test.ts src/server/catalogueComposition.test.ts
+          pnpm catalogue:materialize
+      - name: Validate the assembled catalogue
+        working-directory: compiler
+        env:
+          CATALOGUE_BASELINES: report
+        run: |
+          pnpm catalogue:descriptions
+          pnpm catalogue:points
+          pnpm catalogue:terrain
+          pnpm exec vitest run scripts/custodesAttachments.integration.test.ts
+      - name: Carry history forward and prepare release artifacts
+        working-directory: compiler
+        run: |
+          mkdir -p ../build/release
+          pnpm catalogue:history
+          pnpm catalogue:snapshot pack
+          pnpm catalogue:snapshot verify
+          pnpm catalogue:snapshot runtime
+          pnpm exec tsx -e "import('./scripts/lib/offlineReferenceBundle.ts').then(({ writeReferenceBundle }) => writeReferenceBundle('../build/offline'))"
+          cp ../build/objects/manifest.json ../build/release/manifest.json
+          cp ../catalogue/revocations.json ../build/release/revocations.json
+          node --expose-gc --import tsx scripts/benchmarkCatalogueMemory.ts runtime "$CATALOGUE_DIR" ../build/release/catalogue-runtime --verify
+      - uses: actions/upload-artifact@v7
+        with:
+          name: catalogue-release
+          path: build/release/*.json
+          retention-days: 14
+      - name: Publish and verify both mirrors
+        if: github.event_name == 'workflow_dispatch' && inputs.publish
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.CATALOGUE_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.CATALOGUE_R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: us-east-1
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: python3 scripts/publish.py ${{ inputs.activate && '--activate' || '' }}
