@@ -1,0 +1,202 @@
+--- a/datacards/11th/gdc/adeptuscustodes.json
++++ b/datacards/11th/gdc/adeptuscustodes.json
+@@ -68,2 +68,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "40mm"
+       }
+@@ -141,2 +144,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "40mm"
+       }
+@@ -203,2 +209,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "40mm"
+       }
+@@ -265,2 +274,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "75 x 42mm"
+       }
+@@ -318,2 +330,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "40mm"
+       }
+@@ -440,2 +455,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "40mm"
+       }
+@@ -504,2 +522,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "40mm"
+       }
+@@ -568,2 +589,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "40mm"
+       }
+@@ -613,2 +637,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "50mm"
+       }
+@@ -707,2 +734,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "60mm"
+       }
+@@ -762,2 +792,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "60mm"
+       }
+@@ -815,2 +848,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "75 x 42mm"
+       }
+@@ -873,2 +909,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "60mm flying base"
+       }
+@@ -995,2 +1034,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "40mm"
+       }
+@@ -1053,2 +1095,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "100mm"
+       }
+@@ -1097,2 +1142,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "105 x 70mm"
+       }
+@@ -1157,2 +1205,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "Use model"
+       }
+@@ -1201,2 +1252,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "170 x 109mm"
+       }
+@@ -1277,2 +1331,7 @@
+             }
++          },
++          {
++            "name": {
++              "en": "Anathema Psykana"
++            }
+           }
+@@ -1305,2 +1364,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "32mm"
+       }
+@@ -1345,2 +1407,7 @@
+             }
++          },
++          {
++            "name": {
++              "en": "Anathema Psykana"
++            }
+           }
+@@ -1365,2 +1432,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "32mm"
+       }
+@@ -1405,2 +1475,7 @@
+             }
++          },
++          {
++            "name": {
++              "en": "Anathema Psykana"
++            }
+           }
+@@ -1425,2 +1500,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "32mm"
+       }
+@@ -1465,2 +1543,7 @@
+             }
++          },
++          {
++            "name": {
++              "en": "Anathema Psykana"
++            }
+           }
+@@ -1485,2 +1568,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "32mm"
+       }
+@@ -1517,2 +1603,7 @@
+             }
++          },
++          {
++            "name": {
++              "en": "Anathema Psykana"
++            }
+           }
+@@ -1545,2 +1636,5 @@
+         ]
++      },
++      "baseSize": {
++        "en": "Use model"
+       }
+@@ -2962,2 +3056,16 @@
+     "army": [
++      {
++        "name": {
++          "en": "Anathema Psykana"
++        },
++        "rules": [
++          {
++            "type": "text",
++            "order": 1,
++            "text": {
++              "en": "ANATHEMA PSYKANA units carry this ability: they can join your army although they lack the ADEPTUS CUSTODES faction keyword.\nUnless a rule says otherwise, while you muster your army:\n- ANATHEMA PSYKANA cannot be the army faction you select.\n- An ANATHEMA PSYKANA model cannot be selected as your WARLORD."
++            }
++          }
++        ]
++      },
+       {
+@@ -3353,3 +3461,3 @@
+   },
+-  "attribution": "Unofficial Custodes codex preview transcribed by orpheax/custobuilder"
++  "attribution": "Unofficial Custodes codex preview transcribed by orpheax/custobuilder; provisional base sizes and Anathema Psykana rule from Warmind"
+ }

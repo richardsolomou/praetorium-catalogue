@@ -1,0 +1,83 @@
+diff --git a/datacards/11th/gdc/kotc.json b/datacards/11th/gdc/kotc.json
+new file mode 100644
+index 0000000..399b97b
+--- /dev/null
++++ b/datacards/11th/gdc/kotc.json
+@@ -0,0 +1,77 @@
++{
++  "format": "praetorium.kotc.v1",
++  "id": "king-of-the-colosseum-2",
++  "name": "King of the Colosseum 2.0",
++  "publisher": "https://playontabletop.com/kotc/",
++  "boardIn": 36,
++  "deploymentDepthIn": 8,
++  "terrainDiagram": "https://playontabletop.com/wp-content/uploads/2026/09/frontline-terrain.png",
++  "objectiveDiagram": "https://playontabletop.com/wp-content/uploads/2026/09/frontline-objectives.png",
++  "wallThicknessIn": 0.5,
++  "arena": {
++    "radiusIn": 13,
++    "wallHalfAngleDeg": 31.4
++  },
++  "objectiveRadiusIn": 3.79,
++  "pieces": [
++    {
++      "name": "Inner ruin",
++      "mirrors": ["none", "x", "y", "xy"],
++      "parts": [
++        {
++          "name": "Ruin",
++          "material": "dense",
++          "floor": [
++            { "x": 10, "y": 12 },
++            { "x": 14.5, "y": 12 },
++            { "x": 14.5, "y": 14.5 },
++            { "x": 10, "y": 14.5 }
++          ],
++          "walls": [
++            [
++              { "x": 14.75, "y": 12 },
++              { "x": 14.75, "y": 14.75 },
++              { "x": 10.25, "y": 14.75 }
++            ]
++          ]
++        },
++        {
++          "name": "Low wall",
++          "material": "light",
++          "walls": [
++            [
++              { "x": 14.75, "y": 10.25 },
++              { "x": 14.75, "y": 12 }
++            ]
++          ]
++        }
++      ]
++    },
++    {
++      "name": "Corner ruin",
++      "mirrors": ["none", "x", "y", "xy"],
++      "parts": [
++        {
++          "name": "Ruin wall",
++          "material": "dense",
++          "walls": [
++            [
++              { "x": 0.25, "y": 5.15 },
++              { "x": 5.75, "y": 5.15 }
++            ]
++          ]
++        },
++        {
++          "name": "Low wall",
++          "material": "light",
++          "walls": [
++            [
++              { "x": 6, "y": 3.25 },
++              { "x": 6, "y": 5.15 }
++            ]
++          ]
++        }
++      ]
++    }
++  ]
++}
