@@ -26,10 +26,10 @@ def run(*args, check=True):
 
 def validate_release(directory):
     pointer = json.loads((directory / "release.json").read_text())
-    for value in [pointer["id"], pointer["archiveSha256"], pointer["runtime"]["archiveSha256"], pointer["runtime"]["fingerprint"]]:
+    for value in [pointer["id"], pointer["archiveSha256"]]:
         if not re.fullmatch(r"[a-f0-9]{64}", value):
             raise ValueError("invalid release hash")
-    for file, expected in [("snapshot.zip", pointer["archiveSha256"]), ("runtime.zip", pointer["runtime"]["archiveSha256"]), ("manifest.json", pointer["id"])]:
+    for file, expected in [("snapshot.zip", pointer["archiveSha256"]), ("manifest.json", pointer["id"])]:
         if sha256(directory / file) != expected:
             raise ValueError(f"{file} checksum does not match")
     manifest = json.loads((directory / "manifest.json").read_text())
@@ -96,7 +96,7 @@ def publish(directory, objects, activate=False, client=None):
     bucket = "praetorium"
     snapshot_id = pointer["id"]
     tag = f"catalogue-{snapshot_id}"
-    assets = [directory / name for name in ["snapshot.zip", "runtime.zip", "manifest.json", "release.json", "revocations.json"]]
+    assets = [directory / name for name in ["snapshot.zip", "manifest.json", "release.json", "revocations.json"]]
     with tempfile.TemporaryDirectory(prefix="catalogue-publish-") as temporary:
         temporary = Path(temporary)
 
@@ -131,7 +131,6 @@ def publish(directory, objects, activate=False, client=None):
             (temporary / file.name).unlink()
 
         immutable(directory / "snapshot.zip", f"catalogue/snapshots/{snapshot_id}.zip", "application/zip")
-        immutable(directory / "runtime.zip", f"catalogue/runtime/{pointer['runtime']['archiveSha256']}.zip", "application/zip")
         immutable(directory / "manifest.json", f"catalogue/manifests/{snapshot_id}.json", "application/json")
         immutable(directory / "release.json", f"catalogue/releases/{snapshot_id}.json", "application/json")
 

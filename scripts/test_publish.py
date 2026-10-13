@@ -47,14 +47,12 @@ class PublisherTests(unittest.TestCase):
         self.calls = []
         self.created = False
         self.corrupt_r2 = False
-        for name in ["snapshot.zip", "runtime.zip"]:
-            (self.directory / name).write_bytes(name.encode())
+        (self.directory / "snapshot.zip").write_bytes(b"snapshot.zip")
         manifest = {"sources": ["definitions"], "files": {}}
         (self.directory / "manifest.json").write_text(json.dumps(manifest))
         self.pointer = {
             "id": publish.sha256(self.directory / "manifest.json"),
             "archiveSha256": publish.sha256(self.directory / "snapshot.zip"),
-            "runtime": {"archiveSha256": publish.sha256(self.directory / "runtime.zip"), "fingerprint": "a" * 64},
         }
         (self.directory / "release.json").write_text(json.dumps(self.pointer))
         (self.directory / "revocations.json").write_text(json.dumps({"format": "praetorium.catalogue-revocations.v1", "snapshots": [], "sources": []}))
