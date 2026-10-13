@@ -12,6 +12,7 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parent.parent
 REPOSITORY = "richardsolomou/praetorium-catalogue"
+OBJECT_WORKERS = 16
 
 
 def sha256(file):
@@ -40,7 +41,53 @@ def validate_release(directory):
     return pointer, manifest
 
 
-def publish(directory, objects, activate=False):
+def missing(error):
+    return getattr(error, "response", {}).get("Error", {}).get("Code") in {"404", "NoSuchKey", "NotFound"}
+
+
+def r2_client(endpoint):
+    import boto3
+    from botocore.config import Config
+
+    return boto3.client("s3", endpoint_url=endpoint, config=Config(max_pool_connections=OBJECT_WORKERS))
+
+
+def publish_object(client, bucket, objects, digest):
+    if not re.fullmatch(r"[a-f0-9]{64}", digest):
+        raise ValueError("invalid object hash")
+    file = objects / f"{digest}.gz"
+    hash = hashlib.sha256()
+    size = 0
+    with gzip.open(file, "rb") as stream:
+        while chunk := stream.read(64 * 1024):
+            size += len(chunk)
+            if size > 64 * 1024 * 1024:
+                raise ValueError("object exceeds size limit")
+            hash.update(chunk)
+    if hash.hexdigest() != digest:
+        raise ValueError("object checksum does not match")
+    key = f"catalogue/objects/{digest}.gz"
+    content = file.read_bytes()
+    try:
+        stored = client.head_object(Bucket=bucket, Key=key)
+    except Exception as error:
+        if not missing(error):
+            raise
+        stored = None
+    if stored:
+        # A single-part upload's ETag is the MD5 of its bytes; anything else is read back.
+        etag = stored["ETag"].strip('"')
+        if "-" not in etag:
+            if stored["ContentLength"] != len(content) or etag != hashlib.md5(content).hexdigest():
+                raise ValueError(f"stored artifact differs: {key}")
+            return
+    else:
+        client.put_object(Bucket=bucket, Key=key, Body=content, ContentType="application/octet-stream", CacheControl="public, max-age=31536000, immutable")
+    if client.get_object(Bucket=bucket, Key=key)["Body"].read() != content:
+        raise ValueError(f"stored artifact differs: {key}")
+
+
+def publish(directory, objects, activate=False, client=None):
     pointer, manifest = validate_release(directory)
     account = os.environ["CLOUDFLARE_ACCOUNT_ID"]
     if not re.fullmatch(r"[a-f0-9]{32}", account):
@@ -88,25 +135,10 @@ def publish(directory, objects, activate=False):
         immutable(directory / "manifest.json", f"catalogue/manifests/{snapshot_id}.json", "application/json")
         immutable(directory / "release.json", f"catalogue/releases/{snapshot_id}.json", "application/json")
 
-        def publish_object(digest):
-            if not re.fullmatch(r"[a-f0-9]{64}", digest):
-                raise ValueError("invalid object hash")
-            file = objects / f"{digest}.gz"
-            hash = hashlib.sha256()
-            size = 0
-            with gzip.open(file, "rb") as stream:
-                while chunk := stream.read(64 * 1024):
-                    size += len(chunk)
-                    if size > 64 * 1024 * 1024:
-                        raise ValueError("object exceeds size limit")
-                    hash.update(chunk)
-            if hash.hexdigest() != digest:
-                raise ValueError("object checksum does not match")
-            immutable(file, f"catalogue/objects/{digest}.gz", "application/octet-stream")
-
         if pointer.get("objects"):
-            with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-                list(pool.map(publish_object, sorted(set(manifest["files"].values()))))
+            client = client or r2_client(endpoint)
+            with concurrent.futures.ThreadPoolExecutor(max_workers=OBJECT_WORKERS) as pool:
+                list(pool.map(lambda digest: publish_object(client, bucket, objects, digest), sorted(set(manifest["files"].values()))))
         if draft:
             run("gh", "release", "edit", tag, "--repo", REPOSITORY, "--draft=false", "--latest=false")
         if activate:

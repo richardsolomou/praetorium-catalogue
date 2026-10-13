@@ -1,4 +1,6 @@
+import gzip
 import hashlib
+import io
 import json
 import os
 from pathlib import Path
@@ -8,6 +10,31 @@ import unittest
 from unittest.mock import patch
 
 import publish
+
+
+class MissingObject(Exception):
+    response = {"Error": {"Code": "404"}}
+
+
+class FakeR2:
+    def __init__(self):
+        self.objects = {}
+        self.etags = {}
+        self.calls = []
+
+    def head_object(self, Bucket, Key):
+        self.calls.append(("head", Key))
+        if Key not in self.objects:
+            raise MissingObject()
+        return {"ETag": f'"{self.etags.get(Key) or hashlib.md5(self.objects[Key]).hexdigest()}"', "ContentLength": len(self.objects[Key])}
+
+    def put_object(self, Bucket, Key, Body, ContentType, CacheControl):
+        self.calls.append(("put", Key))
+        self.objects[Key] = Body
+
+    def get_object(self, Bucket, Key):
+        self.calls.append(("get", Key))
+        return {"Body": io.BytesIO(self.objects[Key])}
 
 
 class PublisherTests(unittest.TestCase):
@@ -34,6 +61,14 @@ class PublisherTests(unittest.TestCase):
         self.environment = patch.dict(os.environ, {"CLOUDFLARE_ACCOUNT_ID": "a" * 32})
         self.environment.start()
         self.addCleanup(self.environment.stop)
+
+    def add_object(self, content):
+        digest = hashlib.sha256(content).hexdigest()
+        (self.directory / f"{digest}.gz").write_bytes(gzip.compress(content, mtime=0))
+        (self.directory / "manifest.json").write_text(json.dumps({"sources": ["definitions"], "files": {"definitions/book.json": digest}}))
+        self.pointer.update(id=publish.sha256(self.directory / "manifest.json"), objects=True)
+        (self.directory / "release.json").write_text(json.dumps(self.pointer))
+        return f"catalogue/objects/{digest}.gz"
 
     def command(self, *args, check=True):
         self.calls.append(args)
@@ -98,6 +133,38 @@ class PublisherTests(unittest.TestCase):
         with patch.object(publish, "run", self.command), self.assertRaisesRegex(ValueError, "snapshot.zip checksum"):
             publish.publish(self.directory, self.directory, True)
         self.assertEqual(self.calls, [])
+
+    def test_new_object_is_read_back_after_upload(self):
+        key = self.add_object(b"book")
+        r2 = FakeR2()
+        with patch.object(publish, "run", self.command):
+            publish.publish(self.directory, self.directory, client=r2)
+        self.assertIn(("get", key), r2.calls)
+
+    def test_existing_object_with_matching_etag_is_not_downloaded(self):
+        key = self.add_object(b"book")
+        r2 = FakeR2()
+        r2.objects[key] = (self.directory / key.split("/")[-1]).read_bytes()
+        with patch.object(publish, "run", self.command):
+            publish.publish(self.directory, self.directory, client=r2)
+        self.assertNotIn(("get", key), r2.calls)
+
+    def test_existing_object_with_different_etag_prevents_pointer_activation(self):
+        key = self.add_object(b"book")
+        r2 = FakeR2()
+        r2.objects[key] = b"other"
+        with patch.object(publish, "run", self.command), self.assertRaisesRegex(ValueError, "stored artifact differs"):
+            publish.publish(self.directory, self.directory, True, client=r2)
+        self.assertNotIn("s3://praetorium/catalogue/current.json", self.storage)
+
+    def test_existing_multipart_object_is_read_back(self):
+        key = self.add_object(b"book")
+        r2 = FakeR2()
+        r2.objects[key] = (self.directory / key.split("/")[-1]).read_bytes()
+        r2.etags[key] = "0123-2"
+        with patch.object(publish, "run", self.command):
+            publish.publish(self.directory, self.directory, client=r2)
+        self.assertIn(("get", key), r2.calls)
 
 
 if __name__ == "__main__":
