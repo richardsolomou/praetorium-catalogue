@@ -39,6 +39,7 @@ jobs:
         id: compiler
         run: |
           node scripts/check.mjs
+          node --test scripts/verify-projections.test.mjs
           echo "repository=$(jq -r .repository compiler.json)" >> "$GITHUB_OUTPUT"
           echo "revision=$(jq -r .revision compiler.json)" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v7
@@ -76,7 +77,7 @@ jobs:
       - name: Carry history forward and prepare release artifacts
         working-directory: compiler
         run: |
-          mkdir -p ../build/release
+          mkdir -p ../build/release ../build/offline/assets
           pnpm catalogue:history
           pnpm catalogue:snapshot pack
           pnpm catalogue:snapshot verify
@@ -84,7 +85,9 @@ jobs:
           pnpm exec tsx -e "import('./scripts/lib/offlineReferenceBundle.ts').then(({ writeReferenceBundle }) => writeReferenceBundle('../build/offline'))"
           cp ../build/objects/manifest.json ../build/release/manifest.json
           cp ../catalogue/revocations.json ../build/release/revocations.json
-          node --expose-gc --import tsx scripts/benchmarkCatalogueMemory.ts runtime "$CATALOGUE_DIR" ../build/release/catalogue-runtime --verify
+          node --expose-gc --import tsx scripts/benchmarkCatalogueMemory.ts source "$CATALOGUE_DIR" --verify > ../build/source-projections.jsonl
+          node --expose-gc --import tsx scripts/benchmarkCatalogueMemory.ts runtime "$CATALOGUE_DIR" ../build/release/catalogue-runtime --verify > ../build/runtime-projections.jsonl
+          node ../scripts/verify-projections.mjs ../build/source-projections.jsonl ../build/runtime-projections.jsonl
       - uses: actions/upload-artifact@v7
         with:
           name: catalogue-release

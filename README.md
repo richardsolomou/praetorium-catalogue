@@ -10,7 +10,7 @@ Edit exact source revisions in `catalogue/sources.json`, rules composition in `c
 
 For local checks, clone the compiler revision from `compiler.json`, run `pnpm install --frozen-lockfile`, and set `CATALOGUE_AUTHORING_DIR` to this checkout's absolute path before running its `pnpm catalogue:check` and `pnpm catalogue:materialize` commands. `CATALOGUE_DIR` must identify an independent output directory, never an activated snapshot symlink. Run the affected source audits and the application’s catalogue preflight before adopting a release.
 
-Pull requests run the pinned compiler's authoring tests, full materialization, source audits, retained correction checks, history preparation, snapshot verification and complete source/runtime projection comparison. Run `node scripts/check.mjs` and `python3 -B -m unittest discover -s scripts` for the publisher's local checks.
+Pull requests run the pinned compiler's authoring tests, full materialization, source audits, retained correction checks, history preparation, snapshot verification and complete source/runtime projection comparison. Run `node scripts/check.mjs`, `node --test scripts/verify-projections.test.mjs` and `python3 -B -m unittest discover -s scripts` for the publisher's local checks.
 
 ## Publishing
 
