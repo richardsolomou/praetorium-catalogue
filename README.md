@@ -1,5 +1,7 @@
 # Praetorium catalogue
 
+> **Archived.** The catalogue moved into [`catalogue/` in praetorium.gg](https://github.com/richardsolomou/praetorium.gg/tree/main/catalogue) on 14 October 2026. Snapshots are published from that repository. Releases here stay available for application images built before the move.
+
 This repository owns the upstream source pins, composition, provenance, revocation policy, saved-roster compatibility metadata, retained-build recipes, coverage exceptions and minimal authored corrections in `catalogue/`. KOTC 2 declarations and upstream corrections belong here. Fetched sources, copied rules prose, generated JSON and snapshots stay outside Git. Generated files are published as release assets.
 
 The [application](https://github.com/richardsolomou/praetorium.gg) owns the compiler, generic domain behaviour and migration interpreters. `compiler.json` pins that compiler to a full Git commit. Change the compiler pin when a correction needs new engine support; do not copy its implementation here.
